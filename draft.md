@@ -24,6 +24,7 @@ The clusters using WordNet dumbbells depend on a preexisting semantic lexicon th
 With k-means++, clusters may contain semantically opposite words and a word can belong to only one cluster.
 
 # ES
+## ¿Que buscan? 
 El objetivo común de estos enfoques es acercar las palabras semánticamente cercanas y alejar las semánticamente distantes, 
 manteniendo cada vector de palabras sin alejarse demasiado de la posición original. Aunque los modelos de entrenamiento 
 conjunto pueden incluso ajustar indirectamente las palabras que no figuran en los léxicos semánticos (Pham et al., 2015),
@@ -45,7 +46,8 @@ En futuros trabajos, planeamos investigar técnicas de clustering más allá de 
 Los clusters que utilizan las mancuernas de WordNet dependen de un léxico semántico preexistente que puede no cubrir todas las palabras semánticamente relacionadas. 
 Con k-means++, los clusters pueden contener palabras semánticamente opuestas y una palabra puede pertenecer a un solo cluster.
 
-# En este estudio, partimos de uno de los tres tipos de vectores de palabras disponibles como base para nuestros estudios: GloVe, CBOW y Paragram-SL999
+## ¿Cómo lo consiguen?
+En este estudio, partimos de uno de los tres tipos de vectores de palabras disponibles como base para nuestros estudios: GloVe, CBOW y Paragram-SL999
 (Wieting et al., 2015); ajustamos cada uno de estos conjuntos de vectores con una variedad de métodos contrastivos.
 Nuestro primer sistema contrastivo es una línea de base que utiliza sinónimos y antónimos ("syn&ant")
 siguiendo el enfoque de Mrkši'c et al. (2016), que ajusta vectores de palabras para que la suma de las tres funciones objetivo de funciones objetivo de margen máximo se minimice.
