@@ -39,7 +39,7 @@ Inicialmente creamos datos de entrenamiento de WordNet, pero nos pareció que er
 Entrenamos incrustaciones de 200 dimensiones y utilizamos incrustaciones de salida para medir la similitud. Durante el entrenamiento de los objetivos de cbow eliminamos todas las palabras con frecuencias inferiores a 5, que es la configuración por defectos de word2vec.
 
 ## ¿Con qué clase de palabratrabaja? 
-
+*Trabajan con palabras léxicamente plenas*
 
 # Learning Semantic Hierarchies via Word Embeddings
 ## ¿Qué hace? 
