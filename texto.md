@@ -28,7 +28,16 @@ En nuestro trabajo, en lugar de considerar las tareas de sondeo sólo como exper
 
 # Improving Lexical Embeddings with Semantic Knowledge
 ## ¿Qué hace? 
+El objetivo de nuestros experimentos es demostrar el valor del aprendizaje de incrustaciones semánticas con información de recursos semánticos. En cada escenario, compararemos la incrustación de base de word2vec entrenada con cbow contra RCM solo, el modelo conjunto y Joint -- RCM. Consideramos tres tareas de evaluación: el modelado del lenguaje, la medición de la similitud semántica y la predicción de los juicios humanos sobre la relación semántica.
+
+
 ## ¿Cómo lo hace? 
+
+En todos nuestros experimentos, llevamos a cabo el desarrollo del modelo y ajustamos los parámetros del mismo (C, cbow, RCM, conjunto de datos PPDB, etc.) en los datos de desarrollo, y evaluamos el modelo de mejor rendimiento en los datos de prueba. ¡Los modelos se denominan de la siguiente manera: word2vec para el objetivo de referencia (cbow o skip-gram), RCM-r/p y Joint-r/p para inicializaciones aleatorias y preentrenadas de los objetivos RCM y Joint, y Join RCMt!
+para el preentrenamiento de RCM con incrustaciones conjuntas. A menos que se indique lo contrario, entrenamos utilizando PPDB XXL.
+Inicialmente creamos datos de entrenamiento de WordNet, pero nos pareció que eran demasiado pequeños para afectar a los resultados. Por lo tanto, sólo incluimos los resultados de RCM entrenados en PPDB, pero mostramos las evaluaciones tanto en PPDB como en WordNet.
+Entrenamos incrustaciones de 200 dimensiones y utilizamos incrustaciones de salida para medir la similitud. Durante el entrenamiento de los objetivos de cbow eliminamos todas las palabras con frecuencias inferiores a 5, que es la configuración por defectos de word2vec.
+
 ## ¿Con qué clase de palabratrabaja? 
 
 
