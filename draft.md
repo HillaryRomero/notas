@@ -113,6 +113,15 @@ Qué hicieron y cómo lo hicieron:
 
 # 8. Improving Lexical Embeddings with Semantic Knowledge
 
+The goal of our experiments is to demonstrate the value of learning semantic embeddings with information from semantic resources. In each setting, we will compare the word2vec baseline embedding trained with cbow against RCM alone, the joint model and Joint -- RCM. We consider three evaluation tasks: language modeling, measuring semantic similarity, and predicting human judgements on semantic relatedness. In all of our experiments, we conducted model development and tuned model parameters (C, cbow, RCM, PPDB dataset, etc.) on development data, and evaluate the best performing model on test data. The models are notated as follows: word2vec for the baseline objective (cbow or skip-gram), RCM-r/p and Joint-r/p for random and pre-trained initializations of the RCM and Joint objectives, and Join RCMt!
+for pre-training RCM with Joint embeddings. Unless otherwise notes, we train using PPDB XXL.
+We initially created WordNet training data, but found it too small to affect results. Therefore, we include only RCM results trained on PPDB, but show evaluations on both PPDB andWordNet.
+
+
+We trained 200-dimensional embeddings and used output embeddings for measuring similarity. During the training of cbow objectives we remove all
+words with frequencies less than 5, which is the default setting of word2vec.
+
+
 # 9. Learning Semantic Hierarchies via Word Embeddings
 
 
