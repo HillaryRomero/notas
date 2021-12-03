@@ -58,7 +58,83 @@ siguiendo el enfoque de Mrkši'c et al. (2016), que ajusta vectores de palabras 
 
 # 5. DecodingWord Embeddings with Brain-Based Semantic Features
 
+In this article, we have taken a different route, adopting a methodology inspired
+by the literature on neural decoding in cognitive neuroscience. The brain, too, represents semantic information in distributed patterns (Huth et al. 2016). We argue that the problem of interpreting the content of embeddings is similar to interpreting the semantic content of brain activity. Neurosemantic decoding aims at identifying the information encoded in the brain by learning a mapping from neural activations to semantic features. Analogously, we decode the content of word embeddings by mapping them onto interpretable semantic feature vectors. Featural representations are well known
+in linguistics and cognitive science (Vigliocco and Vinson 2007), and provide a
+human-interpretable analysis of the components of lexical meaning. In particular, we rely on the ratings collected by Binder et al. (2016), whose feature set is motivated on a neurobiological basis. We have carried out the mapping of continuous embeddings onto discrete semantic features with a twofold aim: (i) identifying which semantic features are best encoded in word embeddings; and (ii) using the proposed featural representations to explain the performance of embeddings in semantic probing tasks.
+Concerning the first goal, we have tested the embedding decoding method on
+several types of static and contextualized DSMs. All models achieve high correlations across words and features, with dependency-based DSMs having a slight edge over the others, consistently with the findings of Abnar et al. (2018). The features from abstract domains such as Cognition, Social, and Causal seem to be the ones that are better predicted by the models, which are purely relying on text-based information, while the prediction of spatial and temporal features is obviously more challenging. A further analysis reveals the salience of visual, motion, and audition features, supporting the hypothesis that language redundantly encodes several aspects of sensory-motor information (Louwerse 2008; Riordan and Jones 2011). In terms of word categories, the vectors are very good in predicting entities, whereas they struggle with physical and abstract properties. Moreover, it is interesting to observe that the new generation of semantic information they encode. As for the second goal, we have applied our decoded feature representations to the widely popular probing task methodology, to gain insight on what pieces of semantic information are actually captured by probing classifiers. For our experiments, we tested
+the original embeddings on probing tasks designed to target affective valence, animacy, concreteness, and several verb classes derived from VerbNet for non-contextualized DSMs, and direct object animacy and causative/inchoative verb alternations for contextualized embeddings. If a binary classifier manages to identify whether a word belongs to a semantic class on the basis of its embedding, this is typically taken as indirect evidence that the embedding encodes the relevant piece of semantic information. In our work, instead of regarding probing tasks just as “black box” experiments, we use the
+decoded feature vectors to inspect the semantic dimensions learned by the classifiers.
+Moreover, we have set up a battery of tests to show how the decoded features can explain the embedding performances in the probing tasks. We have measured with AP the overlap between the top task features and the most important features of the test
+words belonging to the positive and negative classes. Our analyses reveal that:
 
+the words correctly classified in the positive class (i.e., TPs) share a large
+number of the top ranked features for that class, and, symmetrically,
+the words correctly classified in the negative class (i.e., TNs) have a
+significantly lower number of the top task features;
+•
+words wrongly classified in the negative class (i.e., FNs) lack many of the
+top features characterizing the target class. Conversely, the features of
+words wrongly classified in the positive class (i.e., FPs) tend to overlap
+with the top task features more than TNs;
+•
+the accuracy of a DSM in a probing task strongly correlates with the
+degree of separation between the semantic features decoded from its
+embeddings of the words in the positive and negative classes.
+These results show that semantic feature decoding provides a simple and useful tool to explain the performance of word embeddings and to enhance the interpretability of probing tasks.
+The methodology we have proposed paves the way for other types of analyses
+and applications. There are at least two prospective research extensions that we plan to pursue, respectively concerning selectional preferences and word sense disambigua
+tion.
+Many recent approaches to the modeling of selectional preferences have given
+up on the idea of characterizing the semantic constraints of predicates in terms of dis
+crete
+semantic types, focusing instead on measuring a continuous degree of predicate
+argument
+compatibility, known as thematic fit (McRae and Matsuki 2009). DSMs have
+been extensively and successfully applied to address this issue, typically measuring
+the cosine between a target noun vector and the vectors of the most prototypically
+predicate arguments (Baroni and Lenci 2010; Erk, Padó, and Padó 2010; Lenci 2011;
+Sayeed, Greenberg, and Demberg 2016; Santus et al. 2017; Chersoni et al. 2019; Zhang,
+Ding, and Song 2019; Zhang et al. 2019; Chersoni et al. 2020; Pedinotti et al. 2021). This
+approach can be profitably paired with our decoding methodology to identify the most
+salient features associated with a predicate argument. For instance, we can expect that
+listen selects for direct objects in which Audition features are particularly salient. This
+way, distributional methods will be able not only to measure the gradient preference of
+a predicate for a certain argument, but also to highlight the features that explain this
+preference, contributing to characterizing the semantic constraints of predicates.
+As for word-sense disambiguation, models like ELMo and BERT provide con
+textualized
+embeddings that allow us to investigate word sense variation in context.
+Using contextualized vectors, it might be possible to investigate how meaning changes
+in contexts by inspecting the feature salience variation of different word tokens. For
+example, we expect features like SOUND and MUSIC to be more salient in the vector of
+play in the sentence The violinist played the sonata, rather than in the sentence The team
+played soccer. This could be extremely useful also in tasks such as metaphor and token
+level
+idiom detection, where it is typically required to disambiguate expressions that
+might have a literal or a non-literal sense depending on the context of usage (King and
+Cook 2018; Rohanian et al. 2020).
+Word embeddings and featufeatural symbolic representations are often regarded as
+antithetic and possibly incompatible ways of representing semantic information, which
+pertain to very different approaches to the study of language and cognition. In this
+paper, we have shown that the distance between these two types of meaning represen
+tation
+is shorter than what appears prima facie. New bridges between symbolic and
+distributed lexical representations can be laid, and used to exploit their complementary
+strengths: The gradience and robustness of the former and the human-interpretability of the
+latter. An important contribution may come from collecting more extensive data about
+feature salience. The Binder data set is an important starting point, but human ratings
+about other types of semantic features and words might be easily collected with crowd
+sourcing
+methods.
+In this work, we have mainly used feature-based representations as a heuristic tool
+to interpret embeddings. An interesting research question is whether decoded features
+from embeddings could actually have other applications too. For instance, semantic
+features provide a more abstract type of semantic representation that might be comple
+mentary
+to the fine-grained information captured by distributional embeddings. This
+suggests to exploring new ways to integrate symbolic and vector models of meaning
 
 
 Qué hicieron y cómo lo hicieron: 
