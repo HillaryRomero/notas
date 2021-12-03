@@ -132,6 +132,14 @@ The baseline word2vec and the joint model have nearly the same averaged running 
 
 # 9. Learning Semantic Hierarchies via Word Embeddings
 
+In this section, we first define the task formally.
+Then we elaborate on our proposed method composed of three major steps, namely, word embedding training, projection learning, and hypernym–
+hyponym relation identification
+
+Given a list of hypernyms of an entity, our goal is to construct a semantic hierarchy on it (Figure 1). We represent the hierarchy as a directed graph
+G, in which the nodes denote the words, and the edges denote the hypernym–hyponym relations. Hypernym-hyponym relations are asymmetric and
+transitive when words are unambiguous.
+
 
 # 10. Recent Trends in Deep Learning Based Natural Language Processing
 
