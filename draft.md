@@ -121,6 +121,14 @@ We initially created WordNet training data, but found it too small to affect res
 We trained 200-dimensional embeddings and used output embeddings for measuring similarity. During the training of cbow objectives we remove all
 words with frequencies less than 5, which is the default setting of word2vec.
 
+We conclude our experiments with an analysis of modeling choices. First, pre-training RCM models gives significant improvements in both measuring
+semantic similarity and capturing human judgements (compare “p” vs. “r” results.) Second, the number of relations used for RCM training is animportant factor. Table 5 shows the effect on dev data of using various numbers of relations. While we see improvements from XL to XXL (5 times as many relations), we get worse results on XXXL, likely because this set contains the lowest quality relations in PPDB. Finally, Table 6 shows different
+learning rates for the RCM objective.
+
+The baseline word2vec and the joint model have nearly the same averaged running times (2,577s and 2,644s respectively), since they have same number of threads for the CBOWobjective and the joint model uses additional threads for the RCM objective. The RCM models are trained with single thread for 100 epochs. When trained on the PPDB-XXL data, it spends 2,931s on average.
+
+*Trabajan con palabras léxicamente plenas*
+
 
 # 9. Learning Semantic Hierarchies via Word Embeddings
 
