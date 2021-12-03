@@ -53,8 +53,21 @@ Nuestro primer sistema contrastivo es una línea de base que utiliza sinónimos 
 siguiendo el enfoque de Mrkši'c et al. (2016), que ajusta vectores de palabras para que la suma de las tres funciones objetivo de funciones objetivo de margen máximo se minimice.
 
 
+*Trabajaron con palabras léxicas: sinónimos, ant´nimos, hiperonimos.*
+
 
 # 5. DecodingWord Embeddings with Brain-Based Semantic Features
+
+
+
+
+Qué hicieron y cómo lo hicieron: 
+
+
+
+
+
+*Trabajaron con palabras léxicas: adjetivos positivos y negativos, sustantivos concretos y asbtractos, animados e inanimados y verbos.*
 
 # 8. Improving Lexical Embeddings with Semantic Knowledge
 
