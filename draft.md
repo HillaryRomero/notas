@@ -138,7 +138,19 @@ hyponym relation identification
 
 Given a list of hypernyms of an entity, our goal is to construct a semantic hierarchy on it (Figure 1). We represent the hierarchy as a directed graph
 G, in which the nodes denote the words, and the edges denote the hypernym–hyponym relations. Hypernym-hyponym relations are asymmetric and
-transitive when words are unambiguous.
+transitive when words are unambiguous:
+
+Here, L denotes the list of hypernyms. x, y and z, deonte hypernyms in L.
+We use H to represent a hypernym–hyponym relation in this
+paper. Actually, x, y and z are unambiguous as the hypernyms of a certain entity. Therefore, G should be a directed acyclic graph (DAG).
+
+
+
+This paper proposes a novel method for semantic hierarchy construction based on word embeddings, which are trained using a large-scale corpus. Using the word embeddings, we learn the hypernym–hyponym relationship by estimating
+projection matrices which map words to theirhypernyms. Further improvements are made using a cluster-based approach in order to model the more fine-grained relations. Then we propose a few simple criteria to identity whether a new word pair is a hypernym–hyponym relation. Based on the pairwise hypernym–hyponym relations, we build semantic hierarchies automatically.
+
+In our experiments, the proposed method significantly outperforms state-of-the-art methods and achieves the best F1-score of 73.74% on a manually
+labeled test dataset. Further experiments show that our method is complementary to the previous manually-built hierarchy extension methods
 
 
 # 10. Recent Trends in Deep Learning Based Natural Language Processing
