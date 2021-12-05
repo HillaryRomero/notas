@@ -42,9 +42,26 @@ Entrenamos incrustaciones de 200 dimensiones y utilizamos incrustaciones de sali
 *Trabajan con palabras léxicamente plenas*
 
 # Learning Semantic Hierarchies via Word Embeddings
-## ¿Qué hace? 
+
+## ¿Qué hace?
+El objetivo es entrenamiento de la incrustación de palabras, el aprendizaje de la proyección y la identificación de la relación entre hiperónimos.
+identificación de la relación hipónima. 
+
+
+
 ## ¿Cómo lo hace? 
+Dada una lista de hiperónimos de una entidad, nuestro objetivo es construir una jerarquía semántica sobre ella (Figura 1). Representamos la jerarquía como un grafo dirigido G, en el que los nodos denotan las palabras y las aristas las relaciones hipernímicas-hipónimas. Las relaciones hiperónimo-hipónimo son asimétricas y transitivas cuando las palabras no son ambiguas:
+Aquí, L denota la lista de hiperónimos. x, y y z, denotan los hiperónimos en L.
+En este documento utilizamos H para representar una relación hipernimia-hipónimo documento. En realidad, x, y y z son inequívocos como hiperónimos de una entidad determinada. Por lo tanto, G debe ser un grafo acíclico dirigido (DAG).
+
+Este artículo propone un método novedoso para la construcción de jerarquías semánticas basado en la incrustación de palabras, que se entrena utilizando un corpus a gran escala. A partir de las incrustaciones de palabras, aprendemos la relación hipernimia-hipónimo mediante la estimación de
+matrices de proyección que asignan las palabras a sus hipérnimos.Se introducen nuevas mejoras mediante un enfoque basado en clústeres para modelar las relaciones más precisas. A continuación, proponemos unos criterios sencillos para identificar si un nuevo par de palabras es una relación hipernímico-hipónima. A partir de las relaciones hipernímicas-hipónimas por pares, construimos automáticamente jerarquías semánticas.
+En nuestros experimentos, el método propuesto supera significativamente a los métodos más avanzados y alcanza la mejor puntuación F1 del 73,74% en un conjunto de datos de prueba etiquetados manualmente.
+etiquetado manualmente. Otros experimentos muestran que nuestro método es complementario a los anteriores métodos de extensión de jerarquías construidas manualmente. 
+
+
 ## ¿Con qué clase de palabratrabaja? 
+*Trabajan con palabras léxicamente plenas*
 
 
 # Semantic Matching Using Deep Multi-Perception Semantic Matching Model with Stacking
