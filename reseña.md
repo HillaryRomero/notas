@@ -62,5 +62,5 @@ Utilizan los componentes similares de todas las palabras para representar las pa
 
 
 #### Conclusión:
-que no hay nada que haya discriminado entre palabras funcionales/plenas en lo que has revisado (por lo menos de forma directa).
-Indirectamente, si algo utilizó wordnet, trabajó con palabras léxicas.
+No hay nada que haya dado un trato diferente a palabras funcionales en lo que he revisado (por lo menos de forma directa).
+Uno de los estudios trabajó con WordNet y eso implica el trabajo de forma indirecta con palabras léxicas.
