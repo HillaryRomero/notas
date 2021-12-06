@@ -153,9 +153,6 @@ In our experiments, the proposed method significantly outperforms state-of-the-a
 labeled test dataset. Further experiments show that our method is complementary to the previous manually-built hierarchy extension methods
 
 
-# 10. Recent Trends in Deep Learning Based Natural Language Processing
-
-
 # 11. Semantic Matching Using Deep Multi-Perception Semantic Matching Model with Stacking
 Sentence Pair Matching is a common task in NLP domain. The challenging of the semantic matching is that the matching requirements are different, and the definition of matching can be also flexible. Existing semantic models, such as Word2Vec, LDA, etc., can determine the similarity between text. But it is difficult to say whether the two paragraphs of text are saying ”the same thing”. For example, when we try to solve the classic sentence retelling problem, it is necessary to judge whether the two sentences are merely different in expression, but the meaning is the same.
 
