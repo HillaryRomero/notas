@@ -187,6 +187,23 @@ Because of restrictions on data usage rules, we only train the word vector base 
 
 
 # 12. Sentence Similarity Learning by Lexical Decomposition and Composition
+Sentence similarity is a fundamental metric to measure the degree of likelihood between a pair of sentences.
+It plays an important role for a variety of tasks in both NLP and IR communities. For example, in paraphrase identification task, sentence similarity is used to determine whether two sentences are paraphrases or not (Yin and Sch¨utze, 2015; He et al., 2015). For question answering and information retrieval tasks, sentence similarities between query-answer pairs are used for assessing the relevance and ranking all the candidate answers (Severyn and Moschitti, 2015; Wang and Ittycheriah, 2015).
+However, sentence similarity learning has following challenges:
+
+
+1. There is a lexical gap between semantically equivalent sentences. Take the E1 and E2 in Table 1 for example, they have the similar meaning but with different lexicons.
+
+2. Semantic similarity should be measured at different levels of granularity (word-level, phrase-level and syntax-level). E.g., “not related” in E2
+is an indivisible phrase when matching with “irrelevant” E1 in
+(shown in square brackets).
+
+The dissimilarity (shown in angle brackets) between two sentences is also a significant clue (Qiu et al., 2006). For example, by judging the dissimilar parts, we can easily identify that E3 yE5 and share the similar meaning “The study is about salmon”, because “sockeye” belongs to the salmon family, and “flounder” does not. Whereas the meaning of E4 is quite different from E3, which emphasizes “The study is about red (a special kind of) salmon”, because both “sockeye” and “coho” are in the salmon family. How we can extract and utilize those information becomes another challenge. 
+
+
+In this paper, we propose a novel model to tackle all these challenges jointly by decomposing and composing lexical semantics over sentences. Given a sentence pair, the model represents each word as a low-dimensional vector (challenge 1), and calculates a semantic matching vector for each word based
+on all words in the other sentence (challenge 2). Then based on the semantic matching vector, each word vector is decomposed into two components: a similar component and a dissimilar component (challenge 3). We use similar components of all the words to represent the similar parts of the sentence pair, and dissimilar components of every word to model the dissimilar parts explicitly. After this, a two-channel CNN operation is performed to compose the similar and dissimilar components into a feature vector (challenge 2 and 3). Finally, the composed feature vector is utilized to predict the sentence similarity. Experimental results on two tasks show that our model gets the state-of-the-art performance on the answer sentence selection task, and achieves a comparable result on the paraphrase identification task.
+In following parts, we start with a brief overview of our model (Section 2), followed by the details of our end-to-end implementation (Section 3). Then we evaluate our model on answer sentence selection and paraphrase identifications tasks (Section 4).
 
 
 
