@@ -6,7 +6,7 @@ En líneas generales, los estudios revisados tienen como objetivo lo siguiente:
 
 #### 1. Adjusting Word Embeddings with Semantic Intensity Orders:
 - **a.** Buscan acercar las palabras semánticamente cercanas y alejar las semánticamente distantes,
-manteniendo los vector de palabras sin alejarse demasiado de la posición original.
+manteniendo los vectores de palabras sin alejarse demasiado de la posición original.
 - **b.** Parten de uno de los tres tipos de vectores de palabras disponibles como base para sus estudios: GloVe, CBOW y Paragram-SL999
 (Wieting et al., 2015); y ajustan cada uno de estos conjuntos de vectores con una variedad de métodos contrastivos. 
 - **c.** Trabajan con palabras léxicas: sinónimos, antónimos, hiperónimos.
