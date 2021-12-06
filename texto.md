@@ -66,9 +66,27 @@ etiquetado manualmente. Otros experimentos muestran que nuestro método es compl
 
 # Semantic Matching Using Deep Multi-Perception Semantic Matching Model with Stacking
 ## ¿Qué hace? 
+Emparejamiento semántico para determinar la similtud entre textos. 
+En este artículo, no sólo implementamos varios modelos semánticos profundos, sino que también
+proponemos una nueva arquitectura para resolver este problema, denominada modelo DMPSM. En detalle, nuestro modelo obtiene información de multipercepción, el significado semántico de toda la frase y la característica de interacción de las palabras, lo que ayuda a conseguir la mejor puntuación.
 ## ¿Cómo lo hace? 
-## ¿Con qué clase de palabratrabaja? 
+Debido al limitado número de presentaciones, sólo presentamos y guardamos algunos modelos profundos con mejores resultados. Otros modelos sencillos con características sintéticas, como Logistic Re gresión logística, Random Forest, XGBoost, LightGBM y también el modelo profundo InferSent se utilizan en el apilamiento para obtener un mejor rendimiento. La Tabla 1 ilustra los resultados de los diferentes ap de los diferentes enfoques. El análisis se centra en dos perspectivas y nos ayudará a encontrar la mejor arquitectura de modelo único.
+arquitectura de modelo único.
 
+*¿Qué tipo de modelo puede obtener mejor el significado semántico de la secuencia de palabras?
+de las palabras?*
+La CNN puede capturar convenientemente la característica de N-gramas mediante núcleos de tamaño múltiple que
+que ayudarán a emparejar la frase en diferentes granularidades. Observa una frase desde un punto de vista vi sual de vista, e ignora la relación secuencial de las palabras hasta cierto punto. En Por el contrario, el LSTM se utiliza a menudo para el modelo de lenguaje, y es bueno para modelar la formación de secuencias. secuencia.
+Podemos encontrar que MPCNN obtiene una puntuación más baja que Bi-MPM Bi-LSTM o SSE,
+y como lan et al[2] indica que la codificación de la información de contexto secuencial con LSTM es crítico.
+
+*¿Qué tipo de modelo es mejor, el de codificación de frases o el de interacción?*
+La puntuación del modelo SSE es ligeramente inferior a la de Bi-MPM, y puede verse en el análisis de lan et al[2] que el modelo interactivo es generalmente mejor que el modelo basado en la codificación.
+Sin embargo, podemos ignorar cuál es mejor. Estos dos tipos de modelos resuelven los problemas desde diferentes ángulos, combinamos las dos ideas y proponemos el modelo DMPSM.
+Para obtener un mejor rendimiento, realizamos un apilamiento de estos modelos profundos con algunas sim ple modelos (LR, RF, XGB, LGB). Los experimentos muestran que si se fija el umbral en 0,25 puede equilibrar los resultados de 0/1 y da los mejores resultados.
+
+## ¿Con qué clase de palabratrabaja? 
+*Trabajan con palabras léxicamente plenas*
 
 # Sentence Similarity Learning by Lexical Decomposition and Composition
 ## ¿Qué hace? 
