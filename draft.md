@@ -157,7 +157,20 @@ labeled test dataset. Further experiments show that our method is complementary 
 
 
 # 11. Semantic Matching Using Deep Multi-Perception Semantic Matching Model with Stacking
+Sentence Pair Matching is a common task in NLP domain. The challenging of the semantic matching is that the matching requirements are different, and the definition of matching can be also flexible. Existing semantic models, such as Word2Vec, LDA, etc., can determine the similarity between text. But it is difficult to say whether the two paragraphs of text are saying ”the same thing”. For example, when we try to solve the classic sentence retelling problem, it is necessary to judge whether the two sentences are merely different in expression, but the meaning is the same.
 
+However, as Quora question-matching corpus is published, a large number of sentence matching research work carried out the definition of the corpus publisher, which is called semantic equivalence discrimination, semantic equivalence judgment, or equivalent, rather than directly judge whether the two sentences have the same semantics, the core problem turn into the intent match of the sentence.
+
+The Task 3 of China Conference on Knowledge Graph and Semantic Computing
+(CCKS) 2018 is closer to the actual needs of NLP tasks such as smart customer service due to the data source is coming from real Q&A corpus. Given two sentences, the solution is supposed to determine whether the intentions are the same or similar. All corpora come from the real intelligent bank customer service log and have been screened and manually intent-matched.
+
+In this paper, we not only implement various of deep semantic models, but also
+propose a new architecture to solve this problem, called DMPSM model. In detail, our model obtains multi-perception information, whole sentence’s semantic meaning and words interaction feature, which help achieving the best score.
+
+Matching natural language text semantically is a key task for many applications in NLP. Different from semantic matching tasks based on common public data sets, our work pays more attention to the processing and understanding of real customer service data. With the in-depth study, we attempt multiple perspectives and ideas, which makes our research more practical and theoretical supported. Meanwhile, the implement of model fusion technique blends the viewpoint of different methods, from the experimental results, the method that this thesis puts forward comes to the result of our expectation.
+Despite our many attempts and efforts, there is still room for improvement in accuracy.
+
+Because of restrictions on data usage rules, we only train the word vector base on given training corpus, which led to the lacking of prior knowledge of professional field. In the future work, the introduction of knowledge graph of special domain may enhance the training efficiency. Furthermore, the other idea is taking advantage of model or knowledge from other areas and making more reasonable usage of these scarce data by transfer learning.
 
 
 # 12. Sentence Similarity Learning by Lexical Decomposition and Composition
