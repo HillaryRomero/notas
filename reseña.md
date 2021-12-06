@@ -1,6 +1,6 @@
 En los recientes artículos revisados fue posible observar que, si bien hay un gran número de estudios sobre semántica y word embeddings, los experimentos en dichos
 papers revisados se enofocan en trabajar con palabras léxiacemente plenas. Es probabeble que existan estudios de palabras funcionales, semántica 
-y word embbedings pero puede que sean escasos.  
+y word embbedings pero para efectos de esta revisión no fueron encontrados.   
 
 En líneas generales, los estudios revisados tienen como objetivo lo siguiente: 
 
