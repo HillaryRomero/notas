@@ -23,42 +23,12 @@ In future work, we plan to investigate clustering techniques beyond WordNet dumb
 The clusters using WordNet dumbbells depend on a preexisting semantic lexicon that may not cover all the semantically related words.
 With k-means++, clusters may contain semantically opposite words and a word can belong to only one cluster.
 
-# ES
-## ¿Que buscan? 
-El objetivo común de estos enfoques es acercar las palabras semánticamente cercanas y alejar las semánticamente distantes, 
-manteniendo cada vector de palabras sin alejarse demasiado de la posición original. Aunque los modelos de entrenamiento 
-conjunto pueden incluso ajustar indirectamente las palabras que no figuran en los léxicos semánticos (Pham et al., 2015),
-los modelos de posprocesamiento son mucho más eficientes y pueden aplicarse a los vectores de palabras de cualquier tipo de modelos, 
-que pueden llegar a obtener mejores resultados que los modelos de entrenamiento conjunto
-
-Los vectores de GloVe se utilizaron como línea base. "línea base" se compara con "same_ord (kmeans only)" en la primera columna y "syn&ant" 
-se compara con "syn&ant,same_ord,diff_ord(+kmeans)". En ambos casos, observamos que algunos de los pares juzgados incorrectamente se corrigen al añadir el ajuste
-con órdenes de intensidad semántica. 
-En estos casos, no hubo pares que se juzgaran correctamente con los ajustes sin órdenes de intensidad semántica pero que se juzgaran incorrectamente
-con órdenes de intensidad semántica.
-
-En este trabajo, ajustamos los vectores de palabras con órdenes de intensidad semántica inferidos, así como con información de WordNet y PPDB, 
-y demostramos que el ajuste de los vectores de palabras con órdenes de intensidad semántica, sinónimos y antónimos en conjunto mostró el mejor rendimiento
-para los tres conjuntos de datos que evaluamos. El uso de los órdenes de intensidad semántica para ajustar los vectores de palabras puede ayudar a representar
-las intensidades semánticas de las palabras en los espacios vectoriales. Además, demostramos que los ajustes que incluyen órdenes de intensidad semántica no son 
-perjudiciales para la representación de la semántica en general al evaluarlos en SimLex-999.
-En futuros trabajos, planeamos investigar técnicas de clustering más allá de las mancuernas de WordNet y k means++ como preprocesamiento en el ordenamiento semántico.
-Los clusters que utilizan las mancuernas de WordNet dependen de un léxico semántico preexistente que puede no cubrir todas las palabras semánticamente relacionadas. 
-Con k-means++, los clusters pueden contener palabras semánticamente opuestas y una palabra puede pertenecer a un solo cluster.
-
-## ¿Cómo lo consiguen?
-En este estudio, partimos de uno de los tres tipos de vectores de palabras disponibles como base para nuestros estudios: GloVe, CBOW y Paragram-SL999
-(Wieting et al., 2015); ajustamos cada uno de estos conjuntos de vectores con una variedad de métodos contrastivos.
-Nuestro primer sistema contrastivo es una línea de base que utiliza sinónimos y antónimos ("syn&ant")
-siguiendo el enfoque de Mrkši'c et al. (2016), que ajusta vectores de palabras para que la suma de las tres funciones objetivo de funciones objetivo de margen máximo se minimice.
-
 
 *Trabajaron con palabras léxicas: sinónimos, ant´nimos, hiperonimos.*
 
 
 # 5. DecodingWord Embeddings with Brain-Based Semantic Features
 
-# EN
 In this article, we have taken a different route, adopting a methodology inspired
 by the literature on neural decoding in cognitive neuroscience. The brain, too, represents semantic information in distributed patterns (Huth et al. 2016). We argue that the problem of interpreting the content of embeddings is similar to interpreting the semantic content of brain activity. Neurosemantic decoding aims at identifying the information encoded in the brain by learning a mapping from neural activations to semantic features. Analogously, we decode the content of word embeddings by mapping them onto interpretable semantic feature vectors. Featural representations are well known
 in linguistics and cognitive science (Vigliocco and Vinson 2007), and provide a
@@ -100,14 +70,6 @@ Word embeddings and featural symbolic representations are often regarded as
 antithetic and possibly incompatible ways of representing semantic information, which pertain to very different approaches to the study of language and cognition. In this paper, we have shown that the distance between these two types of meaning representation is shorter than what appears prima facie. New bridges between symbolic and distributed lexical representations can be laid, and used to exploit their complementary strengths: The gradience and robustness of the former and the human-interpretability of the
 latter. An important contribution may come from collecting more extensive data about feature salience. The Binder data set is an important starting point, but human ratings about other types of semantic features and words might be easily collected with crowd sourcing methods.
 In this work, we have mainly used feature-based representations as a heuristic tool to interpret embeddings. An interesting research question is whether decoded features from embeddings could actually have other applications too. For instance, semantic features provide a more abstract type of semantic representation that might be complementary to the fine-grained information captured by distributional embeddings. This suggests to exploring new ways to integrate symbolic and vector models of meaning
-
-
-
-Qué hicieron y cómo lo hicieron: 
-
-
-
-
 
 *Trabajaron con palabras léxicas: adjetivos positivos y negativos, sustantivos concretos y asbtractos, animados e inanimados y verbos.*
 
@@ -153,7 +115,11 @@ In our experiments, the proposed method significantly outperforms state-of-the-a
 labeled test dataset. Further experiments show that our method is complementary to the previous manually-built hierarchy extension methods
 
 
+*Trabajan con palabras léxicamente plenas*
+
+
 # 11. Semantic Matching Using Deep Multi-Perception Semantic Matching Model with Stacking
+
 Sentence Pair Matching is a common task in NLP domain. The challenging of the semantic matching is that the matching requirements are different, and the definition of matching can be also flexible. Existing semantic models, such as Word2Vec, LDA, etc., can determine the similarity between text. But it is difficult to say whether the two paragraphs of text are saying ”the same thing”. For example, when we try to solve the classic sentence retelling problem, it is necessary to judge whether the two sentences are merely different in expression, but the meaning is the same.
 
 However, as Quora question-matching corpus is published, a large number of sentence matching research work carried out the definition of the corpus publisher, which is called semantic equivalence discrimination, semantic equivalence judgment, or equivalent, rather than directly judge whether the two sentences have the same semantics, the core problem turn into the intent match of the sentence.
@@ -186,6 +152,9 @@ Despite our many attempts and efforts, there is still room for improvement in ac
 Because of restrictions on data usage rules, we only train the word vector base on given training corpus, which led to the lacking of prior knowledge of professional field. In the future work, the introduction of knowledge graph of special domain may enhance the training efficiency. Furthermore, the other idea is taking advantage of model or knowledge from other areas and making more reasonable usage of these scarce data by transfer learning.
 
 
+*Trabajan con palabras léxicamente plenas*
+
+
 # 12. Sentence Similarity Learning by Lexical Decomposition and Composition
 Sentence similarity is a fundamental metric to measure the degree of likelihood between a pair of sentences.
 It plays an important role for a variety of tasks in both NLP and IR communities. For example, in paraphrase identification task, sentence similarity is used to determine whether two sentences are paraphrases or not (Yin and Sch¨utze, 2015; He et al., 2015). For question answering and information retrieval tasks, sentence similarities between query-answer pairs are used for assessing the relevance and ranking all the candidate answers (Severyn and Moschitti, 2015; Wang and Ittycheriah, 2015).
@@ -206,4 +175,9 @@ on all words in the other sentence (challenge 2). Then based on the semantic mat
 In following parts, we start with a brief overview of our model (Section 2), followed by the details of our end-to-end implementation (Section 3). Then we evaluate our model on answer sentence selection and paraphrase identifications tasks (Section 4).
 
 
-In this work, we proposed a model to assess sentence similarity by decomposing and composing lexical semantics. To bridge the lexical gap problem, our model represents each word with its context vector. To extract features from both the similarity and dissimilarity of a sentence pair, we designed several methods to decompose the word vector into a similar component and a dissimilar component. To extract features at multiple levels of granularity, we employed a two-channel CNN model and equipped it with multiple types of ngram filters. Experimental results show that our model is quite effective on both the answer sentence selection task and the paraphrase identification task .
+In this work, we proposed a model to assess sentence similarity by decomposing and composing lexical semantics. To bridge the lexical gap problem, our model represents each word with its context vector. To extract features from both the similarity and dissimilarity of a sentence pair, we designed several methods to decompose the word vector into a similar component and a dissimilar component. To extract features at multiple levels of granularity, we employed a two-channel CNN model and equipped it with multiple types of ngram filters. Experimental results show that our model is quite effective on both the answer sentence selection task and the paraphrase identification task.
+
+
+*Trabajan con palabras léxicamente plenas*
+
+
