@@ -206,4 +206,4 @@ on all words in the other sentence (challenge 2). Then based on the semantic mat
 In following parts, we start with a brief overview of our model (Section 2), followed by the details of our end-to-end implementation (Section 3). Then we evaluate our model on answer sentence selection and paraphrase identifications tasks (Section 4).
 
 
-
+In this work, we proposed a model to assess sentence similarity by decomposing and composing lexical semantics. To bridge the lexical gap problem, our model represents each word with its context vector. To extract features from both the similarity and dissimilarity of a sentence pair, we designed several methods to decompose the word vector into a similar component and a dissimilar component. To extract features at multiple levels of granularity, we employed a two-channel CNN model and equipped it with multiple types of ngram filters. Experimental results show that our model is quite effective on both the answer sentence selection task and the paraphrase identification task .
