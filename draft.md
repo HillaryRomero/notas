@@ -164,6 +164,22 @@ The Task 3 of China Conference on Knowledge Graph and Semantic Computing
 In this paper, we not only implement various of deep semantic models, but also
 propose a new architecture to solve this problem, called DMPSM model. In detail, our model obtains multi-perception information, whole sentence’s semantic meaning and words interaction feature, which help achieving the best score.
 
+Because of the limited submission number, we only submitted and saved some deep model with better results. Other simple models with synthetic feature like Logistic Regression, Random Forest, XGBoost, LightGBM and also deep model InferSent are used in stacking to get better performance. Table 1 illustrates the results of different approaches. The analysis focus on two perspectives and it will help us find the best single
+model architecture.
+
+Which kinds of model can better obtain the semantic meaning of word se
+quence?
+CNN can conveniently captures N-gram feature by multi-size kernels which
+will help matching sentence in different granularities. It looks at a sentence from a visual point of view, and ignores the sequence relationship of words to some extent. In contrast, LSTM is often used for language model, and good at modeling sequence information.
+We can find that MPCNN get lower score than Bi-MPM Bi-LSTM or SSE,
+and as lan et al[2] indicates that encoding sequential context information with LSTM is critical.
+
+Which kinds of model is better, Sentence encoding model or Interaction model?
+SSE model score is slightly lower than Bi-MPM, and it can be seen from the lan et al[2]’s analysis that the interactive model is generally better than encoding based model.
+However, we can ignore which one is better. These two types of models solve problems from different angles, we combine the two ideas and propose the DMPSM model.
+For better performance, we perform stacking on these deep models with some simple models (LR, RF, XGB, LGB). Experiments show that setting the threshold to 0.25 can balanced the 0/1 results and gives the best results.
+
+
 Matching natural language text semantically is a key task for many applications in NLP. Different from semantic matching tasks based on common public data sets, our work pays more attention to the processing and understanding of real customer service data. With the in-depth study, we attempt multiple perspectives and ideas, which makes our research more practical and theoretical supported. Meanwhile, the implement of model fusion technique blends the viewpoint of different methods, from the experimental results, the method that this thesis puts forward comes to the result of our expectation.
 Despite our many attempts and efforts, there is still room for improvement in accuracy.
 
