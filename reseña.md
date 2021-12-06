@@ -13,9 +13,9 @@ manteniendo los vectores de palabras sin alejarse demasiado de la posición orig
 
 #### 2. DecodingWord Embeddings with Brain-Based Semantic Features
 - **a.** Buscan decodificar el contenido de las word embeddings mapeándolas en vectores de características semánticas interpretables para
- (i) identificar qué rasgos semánticos están mejor codificados en las incrustaciones de palabras;
- y (ii) utilizar las representaciones de rasgos propuestas para explicar el rendimiento de las incrustaciones en tareas de sondeo semántico.
-- **b.** Prueba el método de decodificación de incrustaciones en varios tipos de MDS estáticos y contextualizados. 
+ (i) identificar qué rasgos semánticos están mejor codificados en las word embeddings;
+ y (ii) utilizar las representaciones de rasgos propuestas para explicar el rendimiento de las word embeddings en tareas de probing semántico.
+- **b.** Prueba el método de decodificación de las word embeddings en varios tipos de MDS estáticos y contextualizados. 
 Todos los modelos logran altas correlaciones entre las palabras y los rasgos, y los MDS basados en la dependencia tienen una ligera ventaja
 sobre los demás, en consonancia con los hallazgos de Abnar et al. (2018).
 También han aplicado las representaciones de rasgos descodificados a la metodología de la probing task,
@@ -23,19 +23,19 @@ para conocer qué piezas de información semántica captan realmente los probing
 - **c.** Trabajan con palabras léxicas: adjetivos positivos y negativos, sustantivos concretos y asbtractos, animados e inanimados y verbos.
 
 #### 3. Improving Lexical Embeddings with Semantic Knowledge
-- **a.** Buscan demostrar el valor del aprendizaje de incrustaciones semánticas con información de recursos semánticos.
-- **b.** En cada escenario, compararemos la incrustación de base de word2vec entrenada con cbow contra RCM solo, el modelo conjunto y Joint -- RCM.
+- **a.** Buscan demostrar el valor del aprendizaje de embeddings semánticas con información de recursos semánticos.
+- **b.** En cada escenario, compararemos la embedding de base de word2vec entrenada con cbow contra RCM solo, el modelo conjunto y Joint -- RCM.
 Consideran tres tareas de evaluación: el modelado del lenguaje, la medición de la similitud semántica y la predicción de los juicios humanos 
 sobre la relación semántica.
 llevan a cabo el desarrollo del modelo y ajustan los parámetros del mismo (C, cbow, RCM, conjunto de datos PPDB, etc.) en los datos de desarrollo, y evalúan s el modelo
 de mejor rendimiento en los datos de prueba. ¡Los modelos se denominan de la siguiente manera: word2vec para el objetivo de referencia (cbow o skip-gram), RCM-r/p y Joint-r/p para 
-inicializaciones aleatorias y preentrenadas de los objetivos RCM y Joint, y Join RCMt! para el preentrenamiento de RCM con incrustaciones conjuntas.
+inicializaciones aleatorias y preentrenadas de los objetivos RCM y Joint, y Join RCMt! para el preentrenamiento de RCM con embeddings conjuntas.
 - **c.** Trabajan con palabras léxicamente plenas.
 
 #### 4. Learning Semantic Hierarchies via Word Embeddings
-- **a.** El objetivo es entrenamiento de la incrustación de palabras, el aprendizaje de la proyección y la identificación de la relación entre hiperónimos-hipónimos. 
-- **b.** Este artículo propone un método novedoso para la construcción de jerarquías semánticas basado en la incrustación de palabras, que se entrena utilizando un corpus a gran escala. 
-A partir de las incrustaciones de palabras, aprendemos la relación hipernimia-hipónimo mediante la estimación de matrices de proyección que asignan las palabras a sus hipérnimos.
+- **a.** El objetivo es entrenamiento de la word embeddings, el aprendizaje de la proyección y la identificación de la relación entre hiperónimos-hipónimos. 
+- **b.** Este artículo propone un método novedoso para la construcción de jerarquías semánticas basado en la word embeddings, que se entrena utilizando un corpus a gran escala. 
+A partir de las word embeddings, aprendemos la relación hipernimia-hipónimo mediante la estimación de matrices de proyección que asignan las palabras a sus hipérnimos.
 Se introducen nuevas mejoras mediante un enfoque basado en clústeres para modelar las relaciones más precisas. A continuación, proponemos unos criterios sencillos para identificar 
 si un nuevo par de palabras es una relación hipernímico-hipónima. A partir de las relaciones hipernímicas-hipónimas por pares, construimos automáticamente jerarquías semánticas.
 En nuestros experimentos, el método propuesto supera significativamente a los métodos más avanzados y alcanza la mejor puntuación F1 del 73,74% en un conjunto de datos de prueba
