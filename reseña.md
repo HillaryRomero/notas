@@ -61,5 +61,6 @@ Utilizan los componentes similares de todas las palabras para representar las pa
 - **c.** Trabajan con palabras léxicamente plenas.
 
 
+#### Conclusión:
 que no hay nada que haya discriminado entre palabras funcionales/plenas en lo que has revisado (por lo menos de forma directa).
 Indirectamente, si algo utilizó wordnet, trabajó con palabras léxicas.
