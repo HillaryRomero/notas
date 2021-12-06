@@ -90,10 +90,19 @@ Para obtener un mejor rendimiento, realizamos un apilamiento de estos modelos pr
 
 # Sentence Similarity Learning by Lexical Decomposition and Composition
 ## ¿Qué hace? 
+El objetivo es evaluar la similitud de oraciones para determinar si dos oraciones son paráfrasis o no. 
+En este trabajo, proponemos un modelo para evaluar la similitud de las frases mediante la descomposición y composición de la semántica léxica.
+
 ## ¿Cómo lo hace? 
+
+En este artículo, proponemos un modelo novedoso para abordar todos estos retos de forma conjunta, descomponiendo y descomponiendo y componiendo la semántica léxica de las frases. Dado un par de frases, el modelo representa cada palabra como un vector de baja dimensión (reto 1), y calcula un vector de correspondencia semántica para cada palabra basado
+en todas las palabras de la otra frase (reto 2). A continuación, basándose en el vector de coincidencia semántica, cada vector de palabras vector de palabras se descompone en dos componentes: un componente similar y un componente disímil (reto 3). Utilizamos los componentes similares de todas las palabras para representar las partes similares de la pareja de frases, y los componentes dis similares de cada palabra para modelar explícitamente las partes disímiles. A continuación, se realiza una operación de CNN de dos canales de dos canales para componer los componentes similares y disimilares en un vector de características (desafío 2 y 3). Por último, el vector de características compuesto se utiliza para predecir la similitud de la frase. Los resultados experimentales en dos tareas muestran que nuestro modelo obtiene el rendimiento más avanzado en la tarea de selección de frases de respuesta, y logra un resultado comparable en la tarea de identificación de paráfrasis.
+En las siguientes partes, comenzamos con una breve descripción de nuestro modelo (Sección 2), seguida de los detalles de nuestra implementación de extremo a extremo (Sección 3). A continuación, evaluamos nuestro modelo en las tareas de selección de frases de respuesta y la identificación de paráfrasis (Sección 4).
+
+
+En este trabajo, proponemos un modelo para evaluar la similitud de las frases mediante la descomposición y composición de la semántica léxica. Para resolver el problema de la brecha léxica, nuestro modelo representa cada palabra con su vector de contexto. Para extraer características tanto de la similitud como de la disimilitud de un par de oraciones, diseñamos varios métodos para descomponer el vector de palabras en un componente similar y un componente disímil. Para extraer características a múltiples niveles de granularidad, empleamos un modelo CNN de dos canales y lo equipamos con múltiples tipos de filtros de ngramas. Los resultados experimentales muestran que nuestro modelo es bastante eficaz tanto en la tarea de selección de frases de respuesta como en la de identificación de paráfrasis.
 ## ¿Con qué clase de palabratrabaja? 
-
-
+*Trabajan con palabras léxicamente plenas*
 
 
 
