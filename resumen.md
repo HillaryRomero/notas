@@ -3,7 +3,6 @@ RESUMEN:
 ¿Cómo lo hacen? (Método)
 
 # Adjusting Word Embeddings with Semantic Intensity Orders
-# EN
 The common goal in these approaches is to make semantically close words closer and semantically distant words farther apart while keeping 
 each word vector not to be too far from the original position. Although the joint training models can even indirectly adjust words that
 are not listed in the semantic lexicons (Pham et al., 2015), the post-processing models are much more efficient and can be applied to word vectors
