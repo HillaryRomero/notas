@@ -30,7 +30,7 @@ sobre la relación semántica.
 llevan a cabo el desarrollo del modelo y ajustan los parámetros del mismo (C, cbow, RCM, conjunto de datos PPDB, etc.) en los datos de desarrollo, y evalúan s el modelo
 de mejor rendimiento en los datos de prueba. ¡Los modelos se denominan de la siguiente manera: word2vec para el objetivo de referencia (cbow o skip-gram), RCM-r/p y Joint-r/p para 
 inicializaciones aleatorias y preentrenadas de los objetivos RCM y Joint, y Join RCMt! para el preentrenamiento de RCM con incrustaciones conjuntas.
-- **c.** Trabajan con palabras léxicamente plenas (indirectamente). 
+- **c.** Trabajan con palabras léxicamente plenas.
 
 #### 4. Learning Semantic Hierarchies via Word Embeddings
 - **a.** El objetivo es entrenamiento de la incrustación de palabras, el aprendizaje de la proyección y la identificación de la relación entre hiperónimos-hipónimos. 
