@@ -2,7 +2,7 @@ RESUMEN:
 ¿Qué buscan hacer? (Objetivo)
 ¿Cómo lo hacen? (Método)
 
-# 3. Adjusting Word Embeddings with Semantic Intensity Orders
+# Adjusting Word Embeddings with Semantic Intensity Orders
 # EN
 The common goal in these approaches is to make semantically close words closer and semantically distant words farther apart while keeping 
 each word vector not to be too far from the original position. Although the joint training models can even indirectly adjust words that
@@ -27,7 +27,7 @@ With k-means++, clusters may contain semantically opposite words and a word can 
 *Trabajaron con palabras léxicas: sinónimos, ant´nimos, hiperonimos.*
 
 
-# 5. DecodingWord Embeddings with Brain-Based Semantic Features
+# DecodingWord Embeddings with Brain-Based Semantic Features
 
 In this article, we have taken a different route, adopting a methodology inspired
 by the literature on neural decoding in cognitive neuroscience. The brain, too, represents semantic information in distributed patterns (Huth et al. 2016). We argue that the problem of interpreting the content of embeddings is similar to interpreting the semantic content of brain activity. Neurosemantic decoding aims at identifying the information encoded in the brain by learning a mapping from neural activations to semantic features. Analogously, we decode the content of word embeddings by mapping them onto interpretable semantic feature vectors. Featural representations are well known
@@ -73,7 +73,7 @@ In this work, we have mainly used feature-based representations as a heuristic t
 
 *Trabajaron con palabras léxicas: adjetivos positivos y negativos, sustantivos concretos y asbtractos, animados e inanimados y verbos.*
 
-# 8. Improving Lexical Embeddings with Semantic Knowledge
+# Improving Lexical Embeddings with Semantic Knowledge
 
 The goal of our experiments is to demonstrate the value of learning semantic embeddings with information from semantic resources. In each setting, we will compare the word2vec baseline embedding trained with cbow against RCM alone, the joint model and Joint -- RCM. We consider three evaluation tasks: language modeling, measuring semantic similarity, and predicting human judgements on semantic relatedness. In all of our experiments, we conducted model development and tuned model parameters (C, cbow, RCM, PPDB dataset, etc.) on development data, and evaluate the best performing model on test data. The models are notated as follows: word2vec for the baseline objective (cbow or skip-gram), RCM-r/p and Joint-r/p for random and pre-trained initializations of the RCM and Joint objectives, and Join RCMt!
 for pre-training RCM with Joint embeddings. Unless otherwise notes, we train using PPDB XXL.
@@ -92,7 +92,7 @@ The baseline word2vec and the joint model have nearly the same averaged running 
 *Trabajan con palabras léxicamente plenas*
 
 
-# 9. Learning Semantic Hierarchies via Word Embeddings
+# Learning Semantic Hierarchies via Word Embeddings
 
 In this section, we first define the task formally.
 Then we elaborate on our proposed method composed of three major steps, namely, word embedding training, projection learning, and hypernym–
@@ -118,7 +118,7 @@ labeled test dataset. Further experiments show that our method is complementary 
 *Trabajan con palabras léxicamente plenas*
 
 
-# 11. Semantic Matching Using Deep Multi-Perception Semantic Matching Model with Stacking
+# Semantic Matching Using Deep Multi-Perception Semantic Matching Model with Stacking
 
 Sentence Pair Matching is a common task in NLP domain. The challenging of the semantic matching is that the matching requirements are different, and the definition of matching can be also flexible. Existing semantic models, such as Word2Vec, LDA, etc., can determine the similarity between text. But it is difficult to say whether the two paragraphs of text are saying ”the same thing”. For example, when we try to solve the classic sentence retelling problem, it is necessary to judge whether the two sentences are merely different in expression, but the meaning is the same.
 
@@ -155,7 +155,7 @@ Because of restrictions on data usage rules, we only train the word vector base 
 *Trabajan con palabras léxicamente plenas*
 
 
-# 12. Sentence Similarity Learning by Lexical Decomposition and Composition
+# Sentence Similarity Learning by Lexical Decomposition and Composition
 Sentence similarity is a fundamental metric to measure the degree of likelihood between a pair of sentences.
 It plays an important role for a variety of tasks in both NLP and IR communities. For example, in paraphrase identification task, sentence similarity is used to determine whether two sentences are paraphrases or not (Yin and Sch¨utze, 2015; He et al., 2015). For question answering and information retrieval tasks, sentence similarities between query-answer pairs are used for assessing the relevance and ranking all the candidate answers (Severyn and Moschitti, 2015; Wang and Ittycheriah, 2015).
 However, sentence similarity learning has following challenges:
