@@ -1,0 +1,9 @@
+En los recientes artículos revisados fue posible observar que, si bien hay un gran número de estudios sobre semántica y word embeddings, 
+los experimentos en dichos papers revisados se enofocan en trabajar con palabras léxiacemente plenas.
+Aunque hasta este momento y para nuestra comprensión no existen publicaciones sobre modelos que traten las palabras funcionales exclusivamente,
+hay otros modelos que tratan la semántica de las palabras lexicamente plena con distintos métodos, entre ellos:
+
+
+**Adjusting Word Embeddings with Semantic Intensity Orders** **(Joo-Kyung Kim†, Marie-Catherine de Marneffe‡, Eric Fosler-Lussier† , 2016).**
+En este estudio buscan acercar las palabras semánticamente cercanas y alejar las semánticamente distantes, manteniendo los
+vectores de palabras sin alejarse demasiado de la posición original. 
