@@ -5,7 +5,7 @@ hay otros modelos que tratan la semántica de las palabras lexicamente plena con
 
 **Adjusting Word Embeddings with Semantic Intensity Orders (Joo-Kyung Kim†, Marie-Catherine de Marneffe‡, Eric Fosler-Lussier† , 2016).**
 En este estudio buscan acercar las palabras semánticamente cercanas y alejar las semánticamente distantes, manteniendo los
-vectores de palabras sin alejarse demasiado de la posición original. 
+vectores de palabras sin alejarse demasiado de la posición original. (Entiendase posición original como la ubicación del vector en un eje de coordenadas).
 
 En otro estudio titulado **Learning Semantic Hierarchies via Word Embeddings (Ruiji Fu†, Jiang Guo†, Bing Qin†, Wanxiang Che†, Haifeng Wang‡, Ting Liu, 2014)** 
 el objetivo es el entrenamiento de las word embeddings, el aprendizaje de la proyección y la identificación de la relación entre hiperónimos-hipónimos.
