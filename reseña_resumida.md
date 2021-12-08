@@ -15,6 +15,9 @@ Changjian Hu, Feiyu Xu, -no encontré el año-)** tienen como objetivo el empare
 También proponen una nueva arquitectura para resolver este problema, denominada modelo DMPSM. En detalle, su modelo obtiene información de multipercepción,
 el significado semántico de toda la frase y la característica de interacción de las palabras, lo que ayuda a conseguir la mejor puntuación.
 
+En este caso, proponen una nueva arquitectura que puede percibir la semántica global de un par de frases sin descuidar la información de concordancia entre las palabras, denominada modelo de concordancia semántica de multipercepción profunda (DMPSM). DMPSM consigue un mejor rendimiento gracias al módulo de multipercepción frente a otros modelos descritos en el paper. 
+
+
 Y finalmente en Sentence **Similarity Learning by Lexical Decomposition and Composition (ZhiguoWang and Haitao Mi and Abraham Ittycheriah, 2017)**
 el objetivo es evaluar la similitud de oraciones para determinar si dos oraciones son paráfrasis o no.
 En este trabajo, proponen un modelo para evaluar la similitud de las frases mediante la descomposición y composición de la semántica léxica.
