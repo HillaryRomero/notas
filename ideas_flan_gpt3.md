@@ -17,6 +17,15 @@ La indicaciones insertadas en el ejemplo de entrada permiten clasificar sentimie
 
 FLAN: 
 
+-----------------------------------------------------------------------------------
+Adicional a lo que resumí de los papers, sobre FLAN y GPT3 tengo estas notas:
+
+
+
+- Son entidades que aprenden una lengua y un conocimiento. Es decir que, de forma paralela aprenden el uso del lenguaje y aprenden para qué utilizar este lenguaje.
+- Las técnicas que explican en los experimentos son una forma de usar el conocimiento aprendido. Ya que estas entidades necesitan resolver un conjunto de tareas asignadas y para resolver estas tareas es necesario tener un conocimiento.
+- Estos modelos extraen el conocimiento de formas distintas, uno lo hace mediante el prompting y el otro lo extrae a través del instruction learning.
+
 
 
 
