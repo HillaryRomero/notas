@@ -1,16 +1,20 @@
-# ¿Por qué?
+# reasons_why_chatbots_fail
+La principal razón por la que los chatbots han fallado se debe a la capacidad reducida de comprender el lenguaje. El desarrollo de la comprensión del
+lenguaje natural ha sido progresivo, sin embargo, ha tardado más tiempo qde lo esperado.
+A pesar de que algunos modelos han logrado grandes avances, su versatilidad no se ha desarrollado de manera óptima. 
+
 
 # Problemas
 Problemas en la comprensión de las oraciones humanas:
 - Capacidad muy reducida de comprender el contexto.
-- Capacidad muy reducida de comprender la intención del usuario.
+- Capacidad reducida de comprender la intención del usuario.
 - Capacidad reducida para  manejar la necesidad del usuario y así darle una experiencia natural a la conversación. 
 - Dificultad en la toma de una decisión para ayudar al usuario. 
 - Dificultad para procesar ironía o situaciones de la vida diaria.
 
 
 # Ventajas
-- Integraciones con aplicaciones de mensajería para evitar que los usuarios se vean en la obligación de descargar una aplicación alternativa y así hacer uso del chatbot. 
+- Integraciones con aplicaciones de mensajería. Evita que los usuarios se vean en la obligación de descargar una aplicación alternativa para hacer uso del chatbot. 
 - Reducen el trabajo manual. 
 - Facilitan la recolección de datos.
 - Facilitan el análisis de datos.
@@ -19,8 +23,7 @@ Problemas en la comprensión de las oraciones humanas:
 
 # Desventajas
 - Dificultad para predecir consultas. 
-- Información sensible (Puede haber algunas informaciones asociadas a temas médicos, personales o familiares que son sensibles
- y que no permiten la automatización de las respuestas por tratarse de asuntos muy particulares).
+- Información sensible (imposibilidad de automatizar algunas respuestas por tratarse de asuntos particulares. Ej: temas médicos o personales).
 - Poca flexibilidad.
 - Pérdida de datos.
 - Rechazo de los usuarios. 
