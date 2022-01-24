@@ -39,7 +39,7 @@ Tienen la capacidad de asumir cualquier tarea que no requiera un conocimiento mu
 espontánea.
 
 
-# Chatbot exitosos 
+# Chatbots exitosos 
 1. H&M Bot
 2. KLM 
 3. Lemonade
@@ -57,3 +57,6 @@ espontánea.
 - Útil: *¿Está el chatbot resolviendo un problema que ya estaba confrontando el negocio y sus clientes antes? ¿Es una solución viable?*
 - Conversacional: *¿Las conversaciones fluyen y suenan humanas? ¿Tiene el chatbot sentido del humor? ¿Puede comprender a pesar de errores de ortografía y jerga?*
 - Fácil de usar: *¿Necesitas registrarte/descargar/instalar algo para usar el chatbot? ¿Es gratis o tiene condiciones? ¿Tiene un buen diseño para poder usarlo fácilmente?*
+
+# Nota final: 
+Al partir del survey realizado, se desprenden temas comunes sobre los chatbots que, al parecer, no han sido abordados de una manera óptima y que pueden resultar de nuestro interés. Por ejemplo: el manejo del contexto, la intención del usuario, manejo de la necesidad del usuario y procesamiento de la ironía.
