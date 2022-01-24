@@ -8,30 +8,44 @@ c. Capacidad reducida para  manejar la necesidad del usuario y así darle una ex
 d. Dificultad en la toma de una decisión para ayudar al usuario. 
 e. Dificultad para procesar ironía o situaciones de la vida diaria.
 
-# ventajas
-- Integraciones con aplicaciones de mensajería para evitar que los usuarios se vean en la obligación de descargar una aplicación alternativa para hacer uso del chatbot. 
+– La ciencia de la interacción con el cliente
+– El matiz del lenguaje
+– Cómo abordar preguntas difíciles de contestar
+– Dotar de marca al chatbot
+– La habilidad del chatbot para aprender y crecer
+
+# Ventajas
+- Integraciones con aplicaciones de mensajería para evitar que los usuarios se vean en la obligación de descargar una aplicación alternativa y así hacer uso del chatbot. 
 - Reducen el trabajo manual. 
 
 # Desventajas
+- Las consultas recibidas suelen ser difíciles de predecir o automatizar.
 
 
 # Ideal
-Las versiones más sofisticadas pueden incluso detectar dudas en función de las acciones de los prospectos, 
-recordar el contexto, como en lo que sucedió en el pasado, y comunicarse (casi) como tú. 
+Las versiones más sofisticadas pueden  deberían incluso detectar dudas en función de las acciones de los usuarios, 
+recordar el contexto, etc. 
 
 # Alcance actual
-cualquier tarea que no requiera un conocimiento muy específico y una toma de decisiones
-espontánea puede ser asumida por chatbots y robots con un límite de pensamiento
+Tienen la capacidad de asumir cualquier tarea que no requiera un conocimiento muy específico y una toma de decisiones
+espontánea.
 
-# Chatbot exitosos: 
--
-- 
-- 
-- 
-- 
+
+# Chatbot exitosos 
+1. H&M Bot
+2. KLM 
+3. Lemonade
+4. Around Me
+5. Insomnobot de Casper 
+
 
 # Razón del éxito de estos chatbots
+- Obteniendo aprendizajes para ir adaptando sus contenidos (incorporan machine learning para mejorar la experiencia de sus usuarios).
+- Optimizando procesos complejos desde la conversación.
+- Creando escenarios conversacionales basados en el momento del día (analizan el comportamiento y los patrones de uso de sus usuarios).
 
 
-
-# Criterios determinados por los usuarios para condiderar que un chatbot 
+# Criterios determinados por los usuarios para condiderar que un chatbot es útil:
+- Útil: ¿Está el chatbot resolviendo un problema que ya estaba confrontando el negocio y sus clientes antes? ¿Es una solución viable?
+- Conversacional: ¿Las conversaciones fluyen y suenan humanas? ¿Tiene el chatbot sentido del humor? ¿Puede comprender a pesar de errores de ortografía y jerga?
+- Fácil de usar: ¿Necesitas registrarte/descargar/instalar algo para usar el chatbot? ¿Es gratis o tiene condiciones? ¿Tiene un buen diseño para poder usarlo fácilmente?
