@@ -50,7 +50,7 @@ espontánea.
 - Creando escenarios conversacionales basados en el momento del día (analizan el comportamiento y los patrones de uso de sus usuarios).
 
 
-# Criterios determinados por los usuarios para condiderar que un chatbot es útil:
+# Criterios determinados por los usuarios para considerar que un chatbot es útil:
 - Útil: *¿Está el chatbot resolviendo un problema que ya estaba confrontando el negocio y sus clientes antes? ¿Es una solución viable?*
 - Conversacional: *¿Las conversaciones fluyen y suenan humanas? ¿Tiene el chatbot sentido del humor? ¿Puede comprender a pesar de errores de ortografía y jerga?*
 - Fácil de usar: *¿Necesitas registrarte/descargar/instalar algo para usar el chatbot? ¿Es gratis o tiene condiciones? ¿Tiene un buen diseño para poder usarlo fácilmente?*
