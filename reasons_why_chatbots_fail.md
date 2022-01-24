@@ -2,7 +2,7 @@
 
 # Problemas
 - Problemas en la comprensión de las oraciones humanas:
-a. Capacidad muy reducida de comprender el contexto.
+a. - Capacidad muy reducida de comprender el contexto.
 b. Capacidad muy reducida de comprender la intención del usuario.
 c. Capacidad reducida para  manejar la necesidad del usuario y así darle una experiencia natural a la conversación. 
 d. Dificultad en la toma de una decisión para ayudar al usuario. 
