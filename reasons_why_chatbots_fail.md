@@ -8,18 +8,24 @@ c. Capacidad reducida para  manejar la necesidad del usuario y así darle una ex
 d. Dificultad en la toma de una decisión para ayudar al usuario. 
 e. Dificultad para procesar ironía o situaciones de la vida diaria.
 
-– La ciencia de la interacción con el cliente
-– El matiz del lenguaje
-– Cómo abordar preguntas difíciles de contestar
-– Dotar de marca al chatbot
-– La habilidad del chatbot para aprender y crecer
 
 # Ventajas
 - Integraciones con aplicaciones de mensajería para evitar que los usuarios se vean en la obligación de descargar una aplicación alternativa y así hacer uso del chatbot. 
 - Reducen el trabajo manual. 
+- Facilita la recolección de datos.
+- Análisis de datos.
+- Uso de la inteligencia artificial (capacidad de alimentarse del conocimiento que reciben cada día). 
+
 
 # Desventajas
 - Las consultas recibidas suelen ser difíciles de predecir o automatizar.
+- Dificultad para predecir consultas. 
+- Información sensible (Puede haber algunas informaciones asociadas a temas médicos, personales o familiares que son sensibles
+ y que no permiten la automatización de las respuestas por tratarse de asuntos muy particulares).
+- Poca flexibilidad.
+- Pérdida de datos.
+- Rechazo de los usuarios. 
+- Carencia de emociones.
 
 
 # Ideal
