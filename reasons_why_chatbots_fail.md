@@ -89,9 +89,12 @@ https://www.inbenta.com/es/blog/chatbots-buenos-o-malos-imitadores-de-la-interac
 
 **Crear pruebas que permitan aprender el contexto**
 
-En vista de que los chatbots actualmente pueden analizar las palabras de forma individual, pero -todavía- no pueden analizar el contexto, podríamos diseñar algunas pruebas enfocadas en enseñar: 1. las diversas interpretaciones de una misma frase; 2. los diversos significados de una misma oración dentro de una frase; 3. los diferentes significados de una palabra específica en diversos contextos. 
+En vista de que los chatbots actualmente pueden analizar las palabras de forma individual, pero -todavía- no pueden analizar el contexto, podríamos diseñar algunas pruebas enfocadas en enseñar: 
+1. Las diversas interpretaciones de una misma frase.
+2. Los diversos significados de una misma oración dentro de una frase. 
+3. Los diferentes significados de una palabra específica en diversos contextos. 
 
- específicamente en cada una de las palabras de una misma frase. 
+
 
 **Opción 1**
 La idea sería desarrollar un corpus que contengan entre 20 y 30 oraciones simples, donde cada una de ellas, sin convertirse en paráfrasis, pueda tener varias interpretaciones diferentes. 
@@ -111,15 +114,15 @@ Interpretaciones:
 Creo que de esta forma podríamos enseñar las diversas interpretaciones que puede tener una misma frase. 
 
 **Opción 2**
-Otra opción sería desarrollar un corpus que contengan entre 20 y 30 frases sencillas, comprendidas por varias oraciones, donde al menos en cada frase se repita una misma oración, y que esa oración tenga significados diferentes dentro de cada uno de los contextos.
+Crear un corpus que contenga entre 20 y 30 frases sencillas, comprendidas por varias oraciones, donde al menos en cada frase se repita una misma oración, y que esa oración tenga significados diferentes dentro de cada uno de los contextos.
 
 Frase 1: *Él está sufriendo.* 
 
-1. Este semestre Juan tiene cinco clases y todas son muy difíciles. este semestre *él está sufriendo*.  
+1. Este semestre Juan tiene cinco clases y todas son muy difíciles. Este semestre *él está sufriendo*.  
 2. La suegra Juan al fin hoy se regresa a España. Segurito que *él está sufriendo*. 
 
 **Opción 3**
-Otra opción sería desarrollar un corpus que contengan un total de 30 oraciones. Cada una de estas oraciones contrendía una palabra que pueda ser ambigua dependiendo del contexto. 
+Otra opción sería desarrollar un corpus que contengan un total de 30 oraciones. Cada una de estas oraciones contenndría una palabra que pueda ser ambigua dependiendo del contexto. 
 
 Palabra 1: **banco*
 1. El Banco de Inglaterra mantiene los tipos de interés en el 5,25%.
