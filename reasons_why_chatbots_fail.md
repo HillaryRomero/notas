@@ -89,7 +89,9 @@ https://www.inbenta.com/es/blog/chatbots-buenos-o-malos-imitadores-de-la-interac
 
 **Crear pruebas que permitan aprender el contexto**
 
-En vista de que los chatbots actualmente pueden analizar las palabras de forma individual, pero -todavía- no pueden analizar el contexto, podríamos diseñar algunas pruebas enfocadas específicamente en cada una de las palabras de una misma frase. 
+En vista de que los chatbots actualmente pueden analizar las palabras de forma individual, pero -todavía- no pueden analizar el contexto, podríamos diseñar algunas pruebas enfocadas en enseñar: 1. las diversas interpretaciones de una misma frase; 2. los diversos significados de una misma oración dentro de una frase; 3. los diferentes significados de una palabra específica en diversos contextos. 
+
+ específicamente en cada una de las palabras de una misma frase. 
 
 **Opción 1**
 La idea sería desarrollar un corpus que contengan entre 20 y 30 oraciones simples, donde cada una de ellas, sin convertirse en paráfrasis, pueda tener varias interpretaciones diferentes. 
