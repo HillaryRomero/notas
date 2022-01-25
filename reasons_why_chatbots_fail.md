@@ -130,5 +130,3 @@ Palabra 1: **banco*
 3. Al cruzar el puente los niños vieron un banco de peces.
 
 
-
-
