@@ -83,3 +83,47 @@ https://blog.cliengo.com/ventajas-desventajas-chatbot/
 https://blog.laboremia.com/pa/ventajas-y-desventajas-de-los-chatbots-para-las-empresas
 https://www.inbenta.com/es/blog/chatbots-buenos-o-malos-imitadores-de-la-interaccion-humana/
 
+
+
+# Pruebas
+
+**Crear pruebas que permitan aprender el contexto**
+
+En vista de que los chatbots actualmente pueden analizar las palabras de forma individual, pero -todavía- no pueden analizar el contexto, podríamos diseñar algunas pruebas enfocadas específicamente en cada una de las palabras de una misma frase. 
+
+**Opción 1**
+La idea sería desarrollar un corpus que contengan entre 20 y 30 oraciones simples, donde cada una de ellas, sin convertirse en paráfrasis, pueda tener varias interpretaciones diferentes. 
+
+Ej: 
+Frase 1: *Ella nunca dijo que lo amaba.*
+
+Interpretaciones: 
+1. ELLA nunca le dijo que lo amaba.  (Pero otra persona sí lo dijo).
+2. Ella NUNCA le dijo que lo amaba.  (Ninguna vez durante toda su relación).
+3. Ella nunca le DIJO que lo amaba.  (Lo demostraba, pero nunca lo dijo en voz alta). 
+4. Ella nunca LE dijo que lo amaba.  (No a él, pero sí se lo dijo a todos los demás).
+5. Ella nunca le dijo que [ELLA] lo amaba. (Pero que otra persona sí)
+6. Ella nunca le dijo que lo AMABA.  (Solo que le gustaba y que le parecía divertido).
+7. Ella nunca le dijo que LO amaba. (Dijo que amaba a otra persona).
+
+Creo que de esta forma podríamos enseñar las diversas interpretaciones que puede tener una misma frase. 
+
+**Opción 2**
+Otra opción sería desarrollar un corpus que contengan entre 20 y 30 frases sencillas, comprendidas por varias oraciones, donde al menos en cada frase se repita una misma oración, y que esa oración tenga significados diferentes dentro de cada uno de los contextos.
+
+Frase 1: *Él está sufriendo.* 
+
+1. Este semestre Juan tiene cinco clases y todas son muy difíciles. este semestre *él está sufriendo*.  
+2. La suegra Juan al fin hoy se regresa a España. Segurito que *él está sufriendo*. 
+
+**Opción 3**
+Otra opción sería desarrollar un corpus que contengan un total de 30 oraciones. Cada una de estas oraciones contrendía una palabra que pueda ser ambigua dependiendo del contexto. 
+
+Palabra 1: **banco*
+1. El Banco de Inglaterra mantiene los tipos de interés en el 5,25%.
+2. El anciano se sentó en un banco para descansar.
+3. Al cruzar el puente los niños vieron un banco de peces.
+
+
+
+
