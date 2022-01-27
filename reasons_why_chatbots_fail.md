@@ -131,6 +131,9 @@ Palabra 1: **banco*
 
 # Comentarios
 1. ¿Qué se entiende por "el chatbot fracasó"? La respuesta a esta pregunta puede tener perspectivas comerciales, de "lógica de negocios", de diseño o de tecnología. Valdría la pena limitar aquí si se va a tomar una o varias de estas perspectivas. ¿Por qué? Porque un chatbot puede fracasar simplemente porque la tecnología no da para más, o porque se intentó utilizar uno en una situación inapropiada. Sugeriría tener bien claro aquí el concepto de interfaz de usuario.
+
+Por problemas con experiencia de usuario. La interfaz influye pero la experiencia de uso, las naturalidad de la conversación y la comodidad del usuario en el proceso comunicativo es importante. El dilema entre UX (User Experience) y UI (User Interface) . 
+
 	
 2. Si hay dificultades tecnológicas, ¿por qué sí hay chatbots que han realizado funciones de forma satisfactoria?
 	
