@@ -129,4 +129,17 @@ Palabra 1: **banco*
 2. El anciano se sentó en un banco para descansar.
 3. Al cruzar el puente los niños vieron un banco de peces.
 
+# Comentarios
+1. ¿Qué se entiende por "el chatbot fracasó"? La respuesta a esta pregunta puede tener perspectivas comerciales, de "lógica de negocios", de diseño o de tecnología. Valdría la pena limitar aquí si se va a tomar una o varias de estas perspectivas. ¿Por qué? Porque un chatbot puede fracasar simplemente porque la tecnología no da para más, o porque se intentó utilizar uno en una situación inapropiada. Sugeriría tener bien claro aquí el concepto de interfaz de usuario.
+	
+2. Si hay dificultades tecnológicas, ¿por qué sí hay chatbots que han realizado funciones de forma satisfactoria?
+	
+3. ¿Qué papel tendría la facilidad en la construcción y diseño del chatbot en su probabilidad de éxito?
+	
+4. ¿Qué quiere decir exactamente aquí el término "contexto"?
+	
+5. ¿Consideras que el emparejamiento de lo que se dice con el "intent" es suficiente para hablar de una interpretación semántica de los enunciados?
+	
+6. ¿Vamos a hacer recomendaciones prescriptivas o vamos a hacer un trabajo descriptivo? O sea, ¿vamos a decir que un chatbot falla si no consigue X, Y o Z (justificadas) o vamos a diseñar un mecanismo para observar el comportamiento de un chatbot dados los estímulos A, B o C? Se parecen en este caso, pero siempre hay una pequeña diferencia en el enfoque que puede cambiar el diseño de la investigación. Ambas perspectivas son válidas, ojo.
 
+La última pregunta me resulta crucial. Tenemos dos caminos: uno es decir "como lingüista, me parece que un chatbot funcional debería manejar estas cualidades que maneja un ser humano" y si no lo hace no se acerca a un ideal. El otro camino -el descriptivo- podría ser comparar varias facetas de chatbots exitosos con los que no lo son a ver si encontramos algo que los distinga (sin pensar en el desarrollo de tecnologías futuras, por ejemplo); sería un poco ver lo que hay (con todo y sus limitaciones) y ver cómo aprovechar lo que tenemos para construir buenos chatbots.
