@@ -162,21 +162,10 @@ Razones por las cuales fracasan los chatbots
 Según (Lexico Dictionaries, 2019) la definicón de chatbot hace refencia a: “A computer program designed to simulate conversation with human users, especially over the Internet” . Los chatbots han sido usados en diversos campos como: la educación, los negocios y el comercio electrónico, la salud y el entretenimiento. La motivación más importante en el uso de los chtabots guarda estrecha relación con el nivel de productividad o eficienca que el agente posea. Sin embargo, la productividad o eficiencia de estos agentes dependerá tanto de factores técnicos, como de factores empresariales o de la experiencia de usuario. 
  
 
-Ahora, cuando la motivaicón de los usuarios decae y los chatbots resultan ser poco útiles, podríamos decir que un chatbot fracasó. En particular, abordaremos el estudio de "el fracaso" de los chatbots a partir de la expericiencia de usuario donde un chatbot no puede establecer una comunicación cómoda y eficaz con los usuarios. Así pues, para efactos de nuestra investigación, definiremos "el fracaso de un chatbot" como la incapacidad del manejo lingüístico que poseen los chatbots para comunicarse de manera adecuada y eficiente con los usuarios. Entiéndase adecuada y eficiente como: la capacidad de procesar el lenguaje, comprender la intención del usuario y manejar las necesidades de los mismos, ofreciendo una experiencia lo más natural posible, asemejándose a la interacción entre humanos.  
+Ahora, cuando la motivaicón de los usuarios decae y los chatbots resultan ser poco útiles, podríamos decir que un chatbot fracasó. En particular, abordaremos el estudio de *el fracaso* de los chatbots a partir de la expericiencia de usuario, donde un chatbot no es capaz de establecer una comunicación adecuada y eficiente con los usuarios. 
+Así pues, para efectos de nuestra investigación, definiremos *el fracaso de un chatbot* como *la incapacidad del manejo lingüístico* que poseen los chatbots para comunicarse *de manera adecuada y eficiente* con los usuarios. Entiéndase *adecuada y eficiente* como: *la capacidad de procesar el lenguaje, comprender la intención del usuario y manejar las necesidades de los mismos, ofreciendo una experiencia lo más natural posible, asemejándose a la interacción entre humanos.*
 
-a los usuarios una asistencia cómoda y eficaz
-
-
-En nu
-
-La productividad es la motivación más importante para los usuarios de chatbots, aunque entre las diferentes motivaciones se encuentran el entretenimiento, los factores sociales y la interacción novedosa. 
-
-
-
-dónde el término productividad depende de muchos factores. 
-
-Aboraderemos el estudio de "el fracaso" de los chabots, partiendo de que
-
+En resumen, consideraremos *el fracaso de un chabot* desde la *incapacidad del manejo lingüístico* que pueden tener estos agentes y cómo esta incapacidad afecta la motivación en el uso de los mismos.
 
 
 # Problemas
