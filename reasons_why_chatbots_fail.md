@@ -179,14 +179,18 @@ En resumen, consideraremos **el fracaso de un chabot** desde la **incapacidad de
 
 
 # Obejtivo
+De esta revisión se desprenden dos posibles objetivos: 
 
+1. Un estudio presciptivo (contrastar X número de chatbot con X cantidad de escenarios y facilitarle estas oraciones en el mismo orden y ver hasta dónde es, cada cchatbot, capaz de comunicarse eficientemente y comprender el contexto)
+2. Un estudio descriptivo (Reunir y organizar los problemas encontrados + crear una herramienta que permita medir si el chatbot es bueno manejando capacidades linguistcicas como la compresión del  contexto. 
 
 # ¿Qué tipo de investigación?
 
-
+1. 
 
 # ¿Cómo evaluarlo? / ¿Qué haremos? Resultado. (outcome)
 
-
+1. probar con X número de chatbots
+2. crear una herramienta para medir
 
 
