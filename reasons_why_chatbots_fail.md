@@ -188,8 +188,7 @@ Y ya que resulta de interés el asunto sobre el contexto pues es fundamental par
 # Obejtivo
 De esta revisión se desprenden dos posibles objetivos: 
 
-1 Un estudio presciptivo que permita crear criterios para medir si un chatbot es funcional o no. Esto desde una perspectiva lingüística. 
-
+1 Un estudio presciptivo que permita, desde una perspectiva lingüística, crear criterios para medir si un chatbot es funcional o no.
 2. Un estudio descriptivo. 
 
 "como lingüista, me parece que un chatbot funcional debería manejar estas cualidades que maneja un ser humano" y si no lo hace no se acerca a un ideal. El otro camino -el descriptivo- podría ser comparar varias facetas de chatbots exitosos con los que no lo son a ver si encontramos algo que los distinga
@@ -197,14 +196,12 @@ De esta revisión se desprenden dos posibles objetivos:
 1. Un estudio presciptivo (contrastar X número de chatbot con X cantidad de escenarios y facilitarle estas oraciones en el mismo orden y ver hasta dónde es, cada cchatbot, capaz de comunicarse eficientemente y comprender el contexto)
 2. Un estudio descriptivo (Reunir y organizar los problemas encontrados + crear una herramienta que permita medir si el chatbot es bueno manejando capacidades linguistcicas como la compresión del  contexto. 
 
-# ¿Qué tipo de investigación?
 
-1. 
 
 # ¿Cómo evaluarlo? / ¿Qué haremos? Resultado. (outcome)
 
-1. probar con X número de chatbots
-2. crear una herramienta para medir
+1. Para el estudio prescriptivo: haremos XXX.  probar con X número de chatbots
+2. ¨Para el estudio descriptivo: haremos YYY. crear una herramienta para medir
 
 
 > ### Sources:
@@ -212,11 +209,14 @@ De esta revisión se desprenden dos posibles objetivos:
 > https://www.researchgate.net/profile/Antje-Janssen/publication/354811221_Why_do_Chatbots_fail_A_Critical_Success_Factors_Analysis/links/614dbb5a154b3227a8a62ecc/Why- do-Chatbots-fail-A-Critical-Success-Factors-Analysis.pdf 
 > "We define success of chatbots from the organizational and main responsible managers’ point of view by the fact that a chatbot is functioning and available, performs > the tasks for which it is designed, and satisfies the users of a chatbot" (CFS's = Critical Success Factors for People). 
 > whereas CSFs are the few essential requirements that must run perfectly to be successful with the chatbot (Rockard 1979; Bullen and Rockard 1981). 
-> 2. Chatbots: History, technology, and applications:
+>
+> 2. Chatbots: History, technology, and applications: (Eleni Adamopoulou,Lefteris Moussiades)
 >  https://www.sciencedirect.com/science/article/pii/S2666827020300062
+>
 > 3. Chatbots: changing user needs and motivations: (Petter Bae Brandtzaeg, Asbjørn Følstad)
  https://dl.acm.org/doi/fullHtml/10.1145/3236669?casa_token=gmu4Oj9kvLUAAAAA:5PWolkbbrkGsWXoRait-EY7UwWAdHoPbzORkWsNwgh27jnu8IjOmmRj4SyM3hjU4zaZXeiTwTg0BQlU
-> 4. Customer service chatbots: Anthropomorphism and adoption: 
+>
+> 4. Customer service chatbots: Anthropomorphism and adoption: (Ben Sheehan, Hyun Seung Jin, Udo Gottlieb)
 > https://www.sciencedirect.com/science/article/pii/S0148296320302484?casa_token=BL8BrKJFrXMAAAAA:R7DccQhF_1zgI-xmB0ZqgyGObWHjVsAA2eA88UvkXQmEc7SnyUaX8nm8NvEAYXivn9iQ9efl1zTA
 
 
