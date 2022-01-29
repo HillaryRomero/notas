@@ -89,6 +89,9 @@ https://www.inbenta.com/es/blog/chatbots-buenos-o-malos-imitadores-de-la-interac
 
 **Crear pruebas que permitan aprender el contexto**
 
+Pruebas para el modelo: 
+- Crear pruebas que permitan evaluar si un modelo es capaz comprender el contexto:
+
 En vista de que los chatbots actualmente pueden analizar las palabras de forma individual, pero -todavía- no pueden analizar el contexto, podríamos diseñar algunas pruebas enfocadas en enseñar: 
 1. Las diversas interpretaciones de una misma frase.
 2. Los diversos significados de una misma oración dentro de una frase. 
@@ -146,3 +149,56 @@ Por problemas con experiencia de usuario. La interfaz influye pero la experienci
 6. ¿Vamos a hacer recomendaciones prescriptivas o vamos a hacer un trabajo descriptivo? O sea, ¿vamos a decir que un chatbot falla si no consigue X, Y o Z (justificadas) o vamos a diseñar un mecanismo para observar el comportamiento de un chatbot dados los estímulos A, B o C? Se parecen en este caso, pero siempre hay una pequeña diferencia en el enfoque que puede cambiar el diseño de la investigación. Ambas perspectivas son válidas, ojo.
 
 La última pregunta me resulta crucial. Tenemos dos caminos: uno es decir "como lingüista, me parece que un chatbot funcional debería manejar estas cualidades que maneja un ser humano" y si no lo hace no se acerca a un ideal. El otro camino -el descriptivo- podría ser comparar varias facetas de chatbots exitosos con los que no lo son a ver si encontramos algo que los distinga (sin pensar en el desarrollo de tecnologías futuras, por ejemplo); sería un poco ver lo que hay (con todo y sus limitaciones) y ver cómo aprovechar lo que tenemos para construir buenos chatbots.
+
+Razones por las cuales fracasan los chatbots
+
+
+# Solución de comentarios: 
+
+
+# Introducción
+### Tópico: Razones por las cuales fracasan los chatbots
+
+Según (Lexico Dictionaries, 2019) la definicón de chatbot hace refencia a: “A computer program designed to simulate conversation with human users, especially over the Internet” . Estos han sido usados en diversos campos como: la educación, los negocios y el comercio electrónico, la salud y el entretenimiento. La motivación más importante en el uso de los chtabots podría decirse que es directamente proporcional a al nivel de productividad o eficienca que el agente posea. 
+Sin embargo, la productividad o eficiencia de estos agentes dependerá de factores: técnicos, empresariales o desde el punto de vista de la experiencia de usuario. 
+ 
+
+Ahora, cuando la motivaicón de los usuarios decae y los chatbots resultan ser poco útiles, podríamos decir que un chatbot fracasó. Y especialmente en nuestro caso, abordaremos el estudio de "el fracaso" de los chatbots a partir de la expericiencia de usuario donde un chatbot es capaz de asistir a los usuario de manera cómoda y eficaz cuando se comunican con ellos. Así pues, para efactos de nuestra investigación, definiremos "el fracaso de un chatbot" como la incapacidad del manejo lingüístico que poseen estos para comunicarse de manera cómoda y eficaz con los usuarios. Y entiéndase cómoda y eficaz como: procesar el lenguaje, comprender la intención del usuario, manejar las necesidades de los mismos e incluso ofreciendo una experiencia lo más natural posible, asemejándose a una interación con otro humano.  
+
+a los usuarios una asistencia cómoda y eficaz
+
+
+En nu
+
+La productividad es la motivación más importante para los usuarios de chatbots, aunque entre las diferentes motivaciones se encuentran el entretenimiento, los factores sociales y la interacción novedosa. 
+
+
+
+dónde el término productividad depende de muchos factores. 
+
+Aboraderemos el estudio de "el fracaso" de los chabots, partiendo de que
+
+
+
+# Problemas
+
+
+- Capacidad muy reducida de comprender el contexto.
+- Capacidad reducida de comprender la intención del usuario.
+- Capacidad reducida para  manejar la necesidad del usuario y así darle una experiencia natural a la conversación. 
+- Dificultad en la toma de una decisión para ayudar al usuario. 
+- Dificultad para procesar ironía o situaciones de la vida diaria.
+
+
+# Obejtivo
+
+
+# ¿Qué tipo de investigación?
+
+
+
+# ¿Cómo evaluarlo? / ¿Qué haremos? Resultado. (outcome)
+
+
+
+
