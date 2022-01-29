@@ -169,13 +169,14 @@ En resumen, consideraremos **el fracaso de un chabot** desde la **incapacidad de
 
 
 # Problema
-Un estudio consultado destaca que «un chatbot es exitoso, desde la perspectiva del usuario, cuando es capaz de realizar de manera eficiente y satisfactoria conversaciones más largas con un usuario» (Antje Janssen, Lukas Grützner, Michael H. Breitner). 
+
+Un estudio consultado destaca que «un chatbot es exitoso, desde la perspectiva del usuario, cuando es capaz de realizar de manera eficiente y satisfactoria conversaciones más largas con un usuario» (Antje Janssen, Lukas Grützner, Michael H. Breitner). Sin embargo, el estudio también define **el éxito de los chatbots** como «un chatbot que está en funcionamiento y disponible, realiza las tareas para las que está diseñado y satisface a los usuarios». Esta definición deja parcialmente de lado lo que ellos llaman CFS's (Critical Success Factors for People) puesto que la disponibilidad del chatbot y la ejecución de tareas «son los pocos requisitos esenciales que deben funcionar perfectamente para que el chatbot tenga éxito» (Rockard 1979; Bullen y Rockard 1981). 
 
 Otro estudio agrega que «para los chatbots se adapten a las necesidades de usuarios y contextos conversacionales específicos, es probable que sea necesario mejorar los modelos de usuario y de contexto. Los chatbots y sus interacciones con los humanos deben ser analizados y rediseñados, no sólo preocupándose por las secuencias de interacción específicas, sino también con el objetivo de mejorar las respuestas generativas a las entradas de una serie de usuarios dentro de una variedad de contextos conversacionales» (Petter Bae Brandtzaeg, Asbjørn Følstad). 
 
+Sin embargo, al consultar sitios web que recogen criterios determinados por los usuarios para considerar que un chatbot es útil, pudimos notar que los usuarios consideran que las versiones más sofisticadas de los chatbots deberían recordar el contexto, detectar dudas en función de las acciones de los usuarios, entre otre otros.
 
-Sin embargo, al consultar sitios web que recogen información comentarios de los usuarios acerca de los chatbots, 
-En los diversos sitios web que consultamos reportan que las versiones más sofisticadas de los chatbots deberían recordar el contexto, detectar dudas en función de las acciones de los usuarios, entre otre otros. Resulta de interés el asunto sobre el contexto ya que parece ser fundamental para los usuarios. 
+Y ya que resulta de interés el asunto sobre el contexto pues es fundamental para los usuarios, entenderemos por contexto: **explicación de contexto**
 
 
 
