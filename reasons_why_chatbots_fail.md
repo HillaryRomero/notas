@@ -199,6 +199,8 @@ De esta revisión se desprenden dos posibles objetivos:
 > ### Sources:
 > 1. Why do Chatbots fail? A Critical Success Factors Analysis:
 > https://www.researchgate.net/profile/Antje-Janssen/publication/354811221_Why_do_Chatbots_fail_A_Critical_Success_Factors_Analysis/links/614dbb5a154b3227a8a62ecc/Why- do-Chatbots-fail-A-Critical-Success-Factors-Analysis.pdf
+> "We define success of chatbots from the organizational and main responsible managers’ point of view by the fact that a chatbot is functioning and available, performs > the tasks for which it is designed, and satisfies the users of a chatbot" (CFS's = Critical Success Factors for People). 
+> whereas CSFs are the few essential requirements that must run perfectly to be successful with the chatbot (Rockard 1979; Bullen and Rockard 1981). 
 > 2. Chatbots: History, technology, and applications https://www.sciencedirect.com/science/article/pii/S2666827020300062
 > 3. Chatbots: changing user needs and motivations: https://dl.acm.org/doi/fullHtml/10.1145/3236669?casa_token=gmu4Oj9kvLUAAAAA:5PWolkbbrkGsWXoRait-EY7UwWAdHoPbzORkWsNwgh27jnu8IjOmmRj4SyM3hjU4zaZXeiTwTg0BQlU
 > 4. Customer service chatbots: Anthropomorphism and adoption: 
