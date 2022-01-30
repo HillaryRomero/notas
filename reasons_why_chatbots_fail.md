@@ -198,10 +198,10 @@ Reunir y organizar los problemas encontrados + crear una herramienta que permita
 2. Para el estudio descriptivo: 
 - Seleccionaremos 5 chatbots de un mismo rubro.
 - Desarrollaremos un corpus que contenga 10 escenarios complejos.
-- Introduciremos en una conversación un total de 10 escenarios a cada uno de los chatbots seleccionados. 
-- Facilitaremos los escenarios uno a uno a cada chatbot. Estos serán facilitados en el mismo orden para cada uno de los casos. 
+- Introduciremos un total de 10 escenarios, por conversación, a cada uno de los chatbots seleccionados. 
+- Introduciremos los escenarios uno a uno. Estos escenarios serán facilitados en el mismo orden para cada uno de los casos. 
 - Evaluaremos cómo se comportan cada uno de estos chatbots del mismo rubro, obteniendo las mismas entradas en una conversación. 
-- Observaremos, desde una perspectiva lingüística, hasta dónde son capaces de llegar estos chatbots en una conversación. 
+- Observaremos, desde una perspectiva lingüística, hasta dónde es capaz de llegar cada chatbot en la conversación. 
 
 
 
