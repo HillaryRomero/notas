@@ -178,7 +178,7 @@ Y ya que resulta de interés el asunto sobre el contexto, debido a que es fundam
 # Objetivo
 De esta revisión se desprenden dos posibles objetivos: 
 
-1. Un estudio presciptivo que permita, desde una perspectiva lingüística, crear criterios para medir si un chatbot es funcional o no. Entiéndase funcional en este contexto como ser capaz de manejar en una conversación cualidades que maneja un ser humano.  
+1. Un estudio prescriptivo que permita, desde una perspectiva lingüística, crear criterios para medir si un chatbot es funcional o no. Entiéndase funcional en este contexto como ser capaz de manejar en una conversación cualidades que maneja un ser humano.  
 2. Un estudio descriptivo que permita diseñar un mecanismo para observar el comportamiento de un chatbot dados algunos estímulos. Con este mecanismo podremos comparar varias facetas de chatbots exitosos con los que no lo son y evaluar si encontramos rasgos distintivos. 
 
 
