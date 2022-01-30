@@ -177,31 +177,23 @@ Sin embargo, al consultar sitios web que recogen criterios determinados por los 
 Y ya que resulta de interés el asunto sobre el contexto pues es fundamental para los usuarios, en nuestro caso particular, entenderemos por contexto: **una serie de elementos semánticos que hayan sido nombrados por el usuario en la conversación**. 
 
 
-
-- Capacidad muy reducida de comprender el contexto.
-- Capacidad reducida de comprender la intención del usuario.
-- Capacidad reducida para  manejar la necesidad del usuario y así darle una experiencia natural a la conversación. 
-- Dificultad en la toma de una decisión para ayudar al usuario. 
-- Dificultad para procesar ironía o situaciones de la vida diaria.
-
-
 # Obejtivo
 De esta revisión se desprenden dos posibles objetivos: 
 
-1 Un estudio presciptivo que permita, desde una perspectiva lingüística, crear criterios para medir si un chatbot es funcional o no.
-2. Un estudio descriptivo. 
+1. Un estudio presciptivo que permita, desde una perspectiva lingüística, crear criterios para medir si un chatbot es funcional o no. Entiéndase funcional en este contexto como: ser capaz de manejar en una conversación cualidades que maneja un ser humano.
+2. Un estudio descriptivo que permita comparar varias facetas de chatbots exitosos con los que no lo son y evaluar ver si encontramos rasgos distintivos. 
+
 
 "como lingüista, me parece que un chatbot funcional debería manejar estas cualidades que maneja un ser humano" y si no lo hace no se acerca a un ideal. El otro camino -el descriptivo- podría ser comparar varias facetas de chatbots exitosos con los que no lo son a ver si encontramos algo que los distinga
-
-1. Un estudio presciptivo (contrastar X número de chatbot con X cantidad de escenarios y facilitarle estas oraciones en el mismo orden y ver hasta dónde es, cada cchatbot, capaz de comunicarse eficientemente y comprender el contexto)
-2. Un estudio descriptivo (Reunir y organizar los problemas encontrados + crear una herramienta que permita medir si el chatbot es bueno manejando capacidades linguistcicas como la compresión del  contexto. 
-
 
 
 # ¿Cómo evaluarlo? / ¿Qué haremos? Resultado. (outcome)
 
 1. Para el estudio prescriptivo: haremos XXX.  probar con X número de chatbots
 2. ¨Para el estudio descriptivo: haremos YYY. crear una herramienta para medir
+
+1. Un estudio presciptivo (contrastar X número de chatbot con X cantidad de escenarios y facilitarle estas oraciones en el mismo orden y ver hasta dónde es, cada cchatbot, capaz de comunicarse eficientemente y comprender el contexto)
+2. Un estudio descriptivo (Reunir y organizar los problemas encontrados + crear una herramienta que permita medir si el chatbot es bueno manejando capacidades linguistcicas como la compresión del  contexto. 
 
 
 > ### Sources:
