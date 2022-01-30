@@ -155,10 +155,9 @@ Razones por las cuales fracasan los chatbots
 
 # Solución de comentarios: 
 
+# Tópico: Razones por las cuales fracasan los chatbots
 
-# Introducción
-### Tópico: Razones por las cuales fracasan los chatbots
-
+# Introducción 
 Según (Lexico Dictionaries, 2019) la definicón de chatbot hace refencia a: «A computer program designed to simulate conversation with human users, especially over the Internet» . Los chatbots han sido usados en diversos campos como: la educación, los negocios y el comercio electrónico, la salud y el entretenimiento. La motivación más importante en el uso de los chtabots guarda estrecha relación con el nivel de productividad o eficienca que el agente posea. Sin embargo, la productividad o eficiencia de estos agentes dependerá tanto de factores técnicos, como de factores empresariales o de la experiencia de usuario. 
  
 Ahora, cuando la motivaicón de los usuarios decae y los chatbots resultan ser poco útiles, podríamos decir que un chatbot fracasó. En particular, abordaremos el estudio de **el fracaso** de los chatbots a partir de la expericiencia de usuario, donde un chatbot no es capaz de establecer una comunicación adecuada y eficiente con los usuarios. 
@@ -168,7 +167,6 @@ En resumen, consideraremos **el fracaso de un chabot** desde la **incapacidad de
 
 
 # Problema
-
 Un estudio consultado destaca que «un chatbot exitoso, desde la perspectiva del usuario, es aquel capaz de realizar de manera eficiente y satisfactoria conversaciones más largas con un usuario» (Antje Janssen, Lukas Grützner, Michael H. Breitner). Sin embargo, el estudio también define **el éxito de los chatbots** como «un chatbot que está en funcionamiento y disponible, realiza las tareas para las que está diseñado y satisface a los usuarios». Esta definición deja parcialmente de lado lo que ellos llaman CFS's (Critical Success Factors for People) puesto que la disponibilidad del chatbot y la ejecución eficiente de tareas «son los pocos requisitos esenciales que deben funcionar perfectamente para que el chatbot tenga éxito» (Rockard 1979; Bullen y Rockard 1981). 
 
 Otro estudio agrega que «para que los chatbots se adapten a las necesidades de usuarios y contextos conversacionales específicos, es probable que sea necesario mejorar los modelos de usuario y de contexto. Los chatbots y sus interacciones con los humanos deben ser analizados y rediseñados, no sólo preocupándose por las secuencias de interacción específicas, sino también con el objetivo de mejorar las respuestas generativas a las entradas de una serie de usuarios dentro de una variedad de contextos conversacionales» (Petter Bae Brandtzaeg, Asbjørn Følstad). 
@@ -180,20 +178,16 @@ Y ya que resulta de interés el asunto sobre el contexto pues es fundamental par
 # Objetivo
 De esta revisión se desprenden dos posibles objetivos: 
 
-1. Un estudio presciptivo que permita, desde una perspectiva lingüística, crear criterios para medir si un chatbot es funcional o no. Entiéndase funcional en este contexto como ser capaz de manejar en una conversación cualidades que maneja un ser humano. 
+1. Un estudio presciptivo que permita, desde una perspectiva lingüística, crear criterios para medir si un chatbot es funcional o no. Entiéndase funcional en este contexto como ser capaz de manejar en una conversación cualidades que maneja un ser humano.  
 2. Un estudio descriptivo que permita diseñar un mecanismo para observar el comportamiento de un chatbot dados algunos estímulos. Con este mecanismo podremos comparar varias facetas de chatbots exitosos con los que no lo son y evaluar si encontramos rasgos distintivos. 
 
 
-
-
-
 # Evaluación
-
-
-
-
 1. Para el estudio prescriptivo: haremos YYY. crear una herramienta para medir
-Reunir y organizar los problemas encontrados + crear una herramienta que permita medir si el chatbot es bueno manejando capacidades linguistcicas como la compresión del  contexto. 
+Reunir y organizar los problemas encontrados + crear una herramienta que permita medir si el chatbot es bueno manejando capacidades lingüísticas como la compresión del  contexto. 
+- Reuniremos y reorganizaremos los problemas encontrados que guarden relación con el tópico que investigamos. 
+- Estableceremos una serie de criterios que incluyan justificaciones lingüísticas acerca de lo que calificaremos como un chatbot funcional frente a uno no funcional. 
+- Los criterios anteriormente mencionados servirán como herramienta para medir la funcionalidad de un chatbot.
 
 2. Para el estudio descriptivo: 
 - Seleccionaremos 5 chatbots de un mismo rubro.
