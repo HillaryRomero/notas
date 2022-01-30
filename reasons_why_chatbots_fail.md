@@ -183,8 +183,7 @@ De esta revisión se desprenden dos posibles objetivos:
 
 
 # Evaluación
-1. Para el estudio prescriptivo: haremos YYY. crear una herramienta para medir
-Reunir y organizar los problemas encontrados + crear una herramienta que permita medir si el chatbot es bueno manejando capacidades lingüísticas como la compresión del  contexto. 
+1. Para el estudio prescriptivo: 
 - Reuniremos y reorganizaremos los problemas encontrados que guarden relación con el tópico que investigamos. 
 - Estableceremos una serie de criterios que incluyan justificaciones lingüísticas acerca de lo que calificaremos como un chatbot funcional frente a uno no funcional. 
 - Los criterios anteriormente mencionados servirán como herramienta para medir la funcionalidad de un chatbot.
