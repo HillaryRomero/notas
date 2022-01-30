@@ -171,8 +171,8 @@ Un estudio consultado destaca que «un chatbot exitoso, desde la perspectiva del
 
 Otro estudio agrega que «para que los chatbots se adapten a las necesidades de usuarios y contextos conversacionales específicos, es probable que sea necesario mejorar los modelos de usuario y de contexto. Los chatbots y sus interacciones con los humanos deben ser analizados y rediseñados, no sólo preocupándose por las secuencias de interacción específicas, sino también con el objetivo de mejorar las respuestas generativas a las entradas de una serie de usuarios dentro de una variedad de contextos conversacionales» (Petter Bae Brandtzaeg, Asbjørn Følstad). 
 
-Sin embargo, al consultar sitios web que recogen criterios determinados por los usuarios para considerar que un chatbot es útil, pudimos notar que los usuarios consideran que las versiones más sofisticadas de los chatbots deberían recordar el contexto, detectar dudas en función de las acciones de los usuarios, entre otre otros.
-Y ya que resulta de interés el asunto sobre el contexto pues es fundamental para los usuarios, en nuestro caso particular, entenderemos por contexto: **una serie de elementos semánticos que hayan sido nombrados por el usuario en la conversación**. 
+Sin embargo, al consultar sitios web que recogen criterios determinados por los usuarios para considerar que un chatbot es útil, pudimos notar que los usuarios consideran que las versiones más sofisticadas de los chatbots deberían recordar el contexto, detectar dudas en función de las acciones de los usuarios, entre otros.
+Y ya que resulta de interés el asunto sobre el contexto, debido a que es fundamental para los usuarios; en nuestro caso particular, entenderemos por contexto: **una serie de elementos semánticos que hayan sido nombrados por el usuario en la conversación**. 
 
 
 # Objetivo
