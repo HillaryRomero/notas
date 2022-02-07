@@ -228,7 +228,7 @@ Así pues, para efectos de nuestra investigación, definiremos **el fracaso de u
 
 Hice una revisión acerca de: **las razones por las cuales fracasan los chatbots**
 Abordando **el fracaso de los chatbots a partir de la experiencia de usuario**, donde un chatbot no es capaz de establecer una comunicación adecuada y eficiente con los usuarios. 
-En este caso particular, definimos **el fracaso de un chatbot** como **la incapacidad del manejo lingüístico** que poseen los chatbots para comunicarse de manera adecuada y eficiente con los usuarios. Entendiendo aquí adecuada y eficiente como: **la capacidad de procesar el lenguaje, comprender el contexto de la conversación, entre otros.**
+En este caso particular, definimos **el fracaso de un chatbot** como **la incapacidad del manejo lingüístico** que poseen los chatbots para comunicarse de manera adecuada y eficiente con los usuarios. Entendiendo aquí adecuada y eficiente como: **la capacidad de procesar el lenguaje, comprender el contexto de la conversación, ofreciendo una experiencia lo más natural posible.**
 Consideraremos el fracaso de un chatbot desde la incapacidad del manejo lingüístico que pueden tener estos agentes y cómo esta incapacidad afecta la motivación en el uso de los mismos.
 
 Para delimitar la investigación y debido a que es fundamental para los usuarios, la propuesta está enfocada a lo que es la comprensión del contexto. Entendiendo por contexto: **una serie de elementos semánticos que hayan sido nombrados por el usuario en la conversación.**
