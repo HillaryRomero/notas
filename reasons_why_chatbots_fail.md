@@ -222,3 +222,32 @@ Así pues, para efectos de nuestra investigación, definiremos **el fracaso de u
 (Reunir y organizar los problemas encontrados + crear una herramienta que permita medir si el chatbot es bueno manejando capacidades linguistcicas como la compresión del  contexto. 
 2. Un estudio descriptivo (contrastar X número de chatbot con X cantidad de escenarios y facilitarle estas oraciones en el mismo orden y ver hasta dónde es, cada cchatbot, capaz de comunicarse eficientemente y comprender el contexto)
 
+
+
+# Resumen
+
+Hice una revisión acerca de: **las razones por las cuales fracasan los chatbots**
+Abordando **el fracaso de los chatbots a partir de la experiencia de usuario**, donde un chatbot no es capaz de establecer una comunicación adecuada y eficiente con los usuarios. 
+En este caso particular, definimos **el fracaso de un chatbot** como **la incapacidad del manejo lingüístico** que poseen los chatbots para comunicarse de manera adecuada y eficiente con los usuarios. Entendiendo aquí adecuada y eficiente como: **la capacidad de procesar el lenguaje, comprender el contexto de la conversación, entre otros.**
+Consideraremos el fracaso de un chatbot desde la incapacidad del manejo lingüístico que pueden tener estos agentes y cómo esta incapacidad afecta la motivación en el uso de los mismos.
+
+Para delimitar la investigación y debido a que es fundamental para los usuarios, la propuesta está enfocada a lo que es la comprensión del contexto. Entendiendo por contexto: **una serie de elementos semánticos que hayan sido nombrados por el usuario en la conversación.**
+
+**A partir de esta revisión, se desprenden dos posibles objetivos:**
+1. Un estudio prescriptivo que permita, desde una perspectiva lingüística, crear criterios para medir si un chatbot es funcional o no. Entiéndase funcional en este contexto como ser capaz de manejar en una conversación cualidades que maneja un ser humano.  
+
+2. Un estudio descriptivo que permita diseñar un mecanismo para observar el comportamiento de un chatbot dados algunos estímulos. Con este mecanismo podremos comparar varias facetas de chatbots exitosos con los que no lo son y evaluar si encontramos rasgos distintivos. 
+
+
+
+
+**Determinar la incidencia del contexto cognitivo en el éxito/fracaso de los chatbots como experiencias de usuario**
+
+**Objetivo 1:** determinar de forma prescriptiva la relación lingüística entre el uso apropiado del contexto (memoria/conocimiento) y la performance de un chatbot; comparar este ideal con 5 chatbots comerciales considerados exitosos.
+**Entregable 1:** artículo en el que se presenten los resultados cualitativos de la comparación entre los 5 chatbots y el ideal; recomendaciones.
+
+**Objetivo 2:** evaluar el desempeño de 5 chatbots comerciales de propósito similar a partir de algunos escenarios en los que se requiera del uso del contexto para poder interpretar adecuadamente los inputs del usuario.
+**Entregable 2:** artículo con la comparación de éxito/fracaso para los chatbots.
+
+
+
