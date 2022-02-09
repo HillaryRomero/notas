@@ -251,24 +251,28 @@ Para delimitar la investigación y debido a que es fundamental para los usuarios
 
 
 
-# ¿Qué significa contexto de la conversación en estas investigaciones? 
+# ¿Qué significa contexto de la conversación en estas investigaciones?  
+
 **1. Why do Chatbots fail? A Critical Success Factors Analysis**
 https://www.researchgate.net/profile/Antje-Janssen/publication/354811221_Why_do_Chatbots_fail_A_Critical_Success_Factors_Analysis/links/614dbb5a154b3227a8a62ecc/Why-do-Chatbots-fail-A-Critical-Success-Factors-Analysis.pdf
 
-**Context = intent**
+**Context = intent. No hablan del contexto directamente, hablan del intent. Y definen el problema central como la incapacidad para interpretar la intención del usuario o proporcionar respuestas adecuadas**
+
 While the development, release, and deployment of chatbots is largely reported in scientific literature and practitioner reports, there are only isolated reports of failed chatbots, such as the Microsoft chatbot Tay (Brandtzaeg and Følstad 2018). From a user perspective, several researchers define chatbot failure within
 a human-to-chatbot interaction in the form of conversation irregularities, i.e., the chatbot's inability to perform tasks for the user through its inability to either interpret the intent or to provide proper responses (Filipczyk et al. 2016; Seeger and Heinzl 2021; Mozafari et al. 2021). From a more global perspective, we
 expand the chatbot failure definition by also including chatbots that have been discontinued by being taken offline.
 
 **3. Chatbots: changing user needs and motivations:**
-**Context =  **
+**Context = No definen el contexto como tal. Solo lo mencionan, dicen que hay que mejorar los moldelos de usuario y de contexto. Y hablan de la posible variación imprevisible de las entradas de los usuarios **  
+
+Chatbots in general, and in particular, AI-powered chatbots, need substantial adaptation and maintenance to perform their task properly. The potential unpredictable variation in user input, as demonstrated in the chatbot failures above, and what constitutes a valid chatbot response, represent substantial challenges for the HCI field. In order to develop chatbots that adapt to the needs of specific users and conversational contexts, there is likely a need for improved user and context models. Chatbots and their interactions with humans must be analyzed and redesigned, not only with concern for specific interaction sequences, but also with the aim of improving generative responses to inputs from a range of users within a variety of conversational contexts.
 
 **4. Customer service chatbots: Anthropomorphism and adoption**
 **Context = Se dice que el contexto local que se trata de un significado compartido derivado temporalmente, de enunciados cinco turnos antes o después del presente
 enunciado **
 
 Se dice que el contexto local que se trata de un significado compartido derivado temporalmente, de enunciados cinco turnos antes o después del presente
-presente. Por el contrario, el contexto global es el producto de todos los enunciados de una conversación, así como de una conversación, así como las dimensiones situacionales que rodean el acto comunicativo, como elcultural del interlocutor o el entorno en el que se produce el acto.
+enunciado. Por el contrario, el contexto global es el producto de todos los enunciados de una conversación, así como de una conversación, así como las dimensiones situacionales que rodean el acto comunicativo, como elcultural del interlocutor o el entorno en el que se produce el acto.
 
 Local context is said to be shared meaning derived temporally, from utterances five turns before or after the present
 utterance. Conversely, global context is the product of all utterances from a conversation as well as situational dimensions surrounding the communicative act, such as an interlocutor’s cultural background or the environment in which the act occurs.
