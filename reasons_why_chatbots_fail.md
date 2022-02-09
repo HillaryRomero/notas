@@ -251,3 +251,5 @@ Para delimitar la investigación y debido a que es fundamental para los usuarios
 
 
 
+# ¿Qué significa contexto de la conversación en estas investigaciones? 
+
