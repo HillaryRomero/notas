@@ -260,4 +260,17 @@ While the development, release, and deployment of chatbots is largely reported i
 a human-to-chatbot interaction in the form of conversation irregularities, i.e., the chatbot's inability to perform tasks for the user through its inability to either interpret the intent or to provide proper responses (Filipczyk et al. 2016; Seeger and Heinzl 2021; Mozafari et al. 2021). From a more global perspective, we
 expand the chatbot failure definition by also including chatbots that have been discontinued by being taken offline.
 
-2. 
+**3. Chatbots: changing user needs and motivations:**
+**Context =  **
+
+**4. Customer service chatbots: Anthropomorphism and adoption**
+**Context = Se dice que el contexto local que se trata de un significado compartido derivado temporalmente, de enunciados cinco turnos antes o después del presente
+enunciado **
+
+Se dice que el contexto local que se trata de un significado compartido derivado temporalmente, de enunciados cinco turnos antes o después del presente
+presente. Por el contrario, el contexto global es el producto de todos los enunciados de una conversación, así como de una conversación, así como las dimensiones situacionales que rodean el acto comunicativo, como elcultural del interlocutor o el entorno en el que se produce el acto.
+
+Local context is said to be shared meaning derived temporally, from utterances five turns before or after the present
+utterance. Conversely, global context is the product of all utterances from a conversation as well as situational dimensions surrounding the communicative act, such as an interlocutor’s cultural background or the environment in which the act occurs.
+
+
