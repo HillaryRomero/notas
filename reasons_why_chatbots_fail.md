@@ -252,4 +252,12 @@ Para delimitar la investigación y debido a que es fundamental para los usuarios
 
 
 # ¿Qué significa contexto de la conversación en estas investigaciones? 
+**1. Why do Chatbots fail? A Critical Success Factors Analysis**
+https://www.researchgate.net/profile/Antje-Janssen/publication/354811221_Why_do_Chatbots_fail_A_Critical_Success_Factors_Analysis/links/614dbb5a154b3227a8a62ecc/Why-do-Chatbots-fail-A-Critical-Success-Factors-Analysis.pdf
 
+**Context = intent**
+While the development, release, and deployment of chatbots is largely reported in scientific literature and practitioner reports, there are only isolated reports of failed chatbots, such as the Microsoft chatbot Tay (Brandtzaeg and Følstad 2018). From a user perspective, several researchers define chatbot failure within
+a human-to-chatbot interaction in the form of conversation irregularities, i.e., the chatbot's inability to perform tasks for the user through its inability to either interpret the intent or to provide proper responses (Filipczyk et al. 2016; Seeger and Heinzl 2021; Mozafari et al. 2021). From a more global perspective, we
+expand the chatbot failure definition by also including chatbots that have been discontinued by being taken offline.
+
+2. 
