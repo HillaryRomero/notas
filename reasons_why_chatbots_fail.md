@@ -278,3 +278,13 @@ Local context is said to be shared meaning derived temporally, from utterances f
 utterance. Conversely, global context is the product of all utterances from a conversation as well as situational dimensions surrounding the communicative act, such as an interlocutor’s cultural background or the environment in which the act occurs.
 
 
+# Plan para pruebas
+¿A qué hora sale mi viaje? / ¿Cuál es la hora de salida de mi vuelo? 
+¿Cómo puedo pagar pasaje? / ¿De qué forma puedo pagar mi boleto?
+¿Cuáles son los detinos más recomendados para viajar durante el verano? / ¿Qué rutas lugares recomiendas para viajar en el verano?
+¿Hay vuelos habilitados los fines de semana? / ¿Hay vuelos disponibles los sábados y domingos? 
+
+
+
+
+
