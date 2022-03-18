@@ -45,6 +45,7 @@ En el Occidente, las personas normalmente leen de arriba hasta abajo, de la izqu
 
 Pues, a pesar de que ambos están direccionados hacia diferentes lados, para evocar una reacción positiva en el usuario (tanto con UI como con UX) se tiene que tomar en cuenta quién es tu público, cuál es el contexto en que él usa tu aplicación y qué quiere encontrar.
 
+https://rockcontent.com/es/blog/ui-ux/
 
 
 
@@ -79,3 +80,4 @@ Depende de usted determinar cómo un chatbot puede o no beneficiar la eficiencia
 Si un script de chatbot no se implementa correctamente, puede ralentizar los tiempos de carga de su sitio web. La velocidad del sitio es crucial para proporcionar una buena experiencia de usuario, y un segundo de más puede hacer que los usuarios se vayan a la competencia. 
 
 Puede evitar este problema cargando de forma asíncrona y enrutando a través de servidores externos. A partir de ahí, supervisa el script de tu chatbot con las herramientas PageSpeed ​​de Google.
+ https://boldist.co/usability/how-chatbots-affect-user-experience/#:~:text=Brand%20Humanization,and%20websites%20become%20engaging%20transactions.
