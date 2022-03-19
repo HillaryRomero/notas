@@ -81,3 +81,24 @@ Si un script de chatbot no se implementa correctamente, puede ralentizar los tie
 
 Puede evitar este problema cargando de forma asíncrona y enrutando a través de servidores externos. A partir de ahí, supervisa el script de tu chatbot con las herramientas PageSpeed ​​de Google.
  https://boldist.co/usability/how-chatbots-affect-user-experience/#:~:text=Brand%20Humanization,and%20websites%20become%20engaging%20transactions.
+ 
+ 
+ # UI and chatbots
+ 
+ Una interfaz de usuario (UI) de chatbot es una serie de elementos gráficos y de lenguaje que permiten la interacción entre humanos y computadoras. Existen diferentes tipos de interfaces de usuario , siendo los chatbots una interfaz de usuario de lenguaje natural. Esto significa que los usuarios pueden comunicarse en sus términos, no en los de la computadora.
+
+
+Los chatbots son un elemento indispensable del servicio al cliente de comercio electrónico moderno. Ser capaz de diseñarlos es un gran activo para su negocio. 
+
+Los diagramas de flujo y los árboles de decisión pueden ser de gran ayuda para crear chatbots que eviten el abandono del carrito de compras , aumenten su tasa de conversión y aumenten la calidad de la experiencia del cliente.
+
+Recuérdalo:
+
+Los chatbots son como diagramas de flujo interactivos, por lo que se aplican las mismas reglas de diseño
+Los nodos dentro de sus diagramas de flujo deben seguir una secuencia lógica
+Su diagrama de flujo debe ser fácil de leer y no demasiado complejo (divídalo en varios diagramas de flujo separados si es necesario)
+Sus diagramas de flujo y árboles de decisión siempre deben terminar (sin embargo, puede influir en los pasos que debe seguir para llegar al nodo final)
+Puede mapear su diseño con lápiz y papel y usar un creador de diagramas de flujo de un editor de chatbot más adelante
+Puede usar plantillas listas para usar y ajustarlas según sus necesidades (Tidio viene equipado con 14 plantillas de diagramas de flujo de conversación diferentes)
+
+https://www.tidio.com/blog/flowchart-and-decision-tree-examples/
