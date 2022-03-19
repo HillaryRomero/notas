@@ -85,7 +85,9 @@ Puede evitar este problema cargando de forma asíncrona y enrutando a través de
  
  # UI and chatbots
  
- Una interfaz de usuario (UI) de chatbot es una serie de elementos gráficos y de lenguaje que permiten la interacción entre humanos y computadoras. Existen diferentes tipos de interfaces de usuario , siendo los chatbots una interfaz de usuario de lenguaje natural. Esto significa que los usuarios pueden comunicarse en sus términos, no en los de la computadora.
+ Una interfaz de usuario (UI) de chatbot es una serie de elementos gráficos y de lenguaje que permiten la interacción entre humanos y computadoras. Existen diferentes tipos de interfaces de usuario , siendo los chatbots una interfaz de usuario de lenguaje natural. Esto significa que los usuarios pueden comunicarse en sus términos, no en los de la computadora.  
+ 
+ https://www.userlike.com/en/blog/chatbot-ui
 
 
 Los chatbots son un elemento indispensable del servicio al cliente de comercio electrónico moderno. Ser capaz de diseñarlos es un gran activo para su negocio. 
