@@ -110,3 +110,60 @@ Puede usar plantillas listas para usar y ajustarlas según sus necesidades (Tidi
 
 
 https://www.tidio.com/blog/flowchart-and-decision-tree-examples/
+
+
+
+# Resumen:
+
+Hillary Romero Resumen: **UX/UI**
+
+**Diseño UX y IU**
+
+El diseño UX hace referencia a la experiencia y sensación del usuario, mientras que el diseño UI está dirigido hacia un lado más racional de la navegación.
+
+El diseño UX está relacionado con la sensación que tiene el usuario mientras usa cualquier producto o servicio digital. También abarca la sensación posterior a la utilización del mismo producto. 
+Ahora, la idea del diseño UI es guiar al usuario por una aplicación durante el tiempo que este la usa. El diseño UI permitirá guiar a los usuarios por la navegación y los conducirá a tomar  acciones de manera natural.
+
+UI solo existe con una interfaz visual, UX no ya que el UI tiene todo que ver con las interfaces visuales de un sitio web o aplicación. Sin una pantalla, no existe UI. Pero no podemos decir lo mismo de UX ya que la sensación del usuario en relación a la experiencia de navegación no tiene que ver con una pantalla.
+Es posible que la experienscia se vuelva más agradable para un usuario si el diseñador UX consigue eliminar algunas etapas en el proceso de uso de un producto, lo que significa menos pantallas para interaccionar. Es por eso que la UX no se limita a la existencia de una pantalla. 
+El UI direcciona al usuario, el UI permite que la navegación sea fácil de comprender y las acciones simples de realizar. 
+El UX hace la navegación valer la pena. El papel del UX es hacer que la navegación sea agradable.
+
+ 
+ 
+ 
+**UX/UI and chatbots**
+
+**UX and chatbots:**
+
+Una mejor UX significa tasas de conversión más altas.
+Problemas comunes de UX con chatbots Hay algunos problemas de UX que los chatbots suelen sufrir:
+Complejidad del lenguaje La IA ha avanzado mucho, pero no todos los chatbots son iguales y muchos no están equipados para asumir toda la complejidad del lenguaje humano. Este problema surge con mayor frecuencia con los chatbots de servicio al cliente, ya que los usuarios tienden a explicar sus problemas en detalle, confundiendo o desviando al bot.
+
+Guiones estrictos Los chatbots tienen un propósito específico, pero a veces tienen un guión demasiado estricto y su flujo no es lo suficientemente indulgente para ninguna circunstancia fuera del guión unidireccional.
+
+Los usuarios pueden describir su pregunta o necesidad, y aunque las palabras significan lo mismo, el chatbot solo está programado para responder a palabras clave, por lo que no comprende. También puede obligar a los usuarios a tomar una ruta innecesariamente larga para llegar a su respuesta o proporcionar muchos detalles que no necesitan porque los obliga a moverse a través de las tareas de cierta manera. Algunos chatbots disfuncionales tampoco consideran la posible necesidad de volver a un paso anterior.
+
+Limitaciones de diseño Los chatbots tienen límites en lo que pueden proporcionar debido a su tamaño, complejidad e interfaz, especialmente en dispositivos móviles. Algunos pueden manejar bien la conversión de voz a texto, mientras que otros no. Y una caja de chat puede ser incapaz de mostrar todas las opciones de un usuario en un formato digerible.
+
+
+
+**UI and chatbots**
+
+Una interfaz de usuario (UI) de chatbot es una serie de elementos gráficos y de lenguaje que permiten la interacción entre humanos y computadoras. Existen diferentes tipos de interfaces de usuario , siendo los chatbots una interfaz de usuario de lenguaje natural. Esto significa que los usuarios pueden comunicarse en sus términos, no en los de la computadora.
+
+Los chatbots son un elemento indispensable del servicio al cliente de comercio electrónico moderno. Ser capaz de diseñarlos es un gran activo para su negocio.
+Los diagramas de flujo y los árboles de decisión pueden ser de gran ayuda para crear chatbots que eviten el abandono del carrito de compras , aumenten su tasa de conversión y aumenten la calidad de la experiencia del cliente.
+
+Los chatbots son como diagramas de flujo interactivos, por lo que se aplican las mismas reglas de diseño
+Los nodos dentro de sus diagramas de flujo deben seguir una secuencia lógica
+Su diagrama de flujo debe ser fácil de leer y no demasiado complejo (divídalo en varios diagramas de flujo separados si es necesario)
+Sus diagramas de flujo y árboles de decisión siempre deben terminar (sin embargo, puede influir en los pasos que debe seguir para llegar al nodo final)
+
+
+
+
+
+
+
+
