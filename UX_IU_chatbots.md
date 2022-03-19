@@ -94,11 +94,17 @@ Los diagramas de flujo y los árboles de decisión pueden ser de gran ayuda para
 
 Recuérdalo:
 
-Los chatbots son como diagramas de flujo interactivos, por lo que se aplican las mismas reglas de diseño
-Los nodos dentro de sus diagramas de flujo deben seguir una secuencia lógica
-Su diagrama de flujo debe ser fácil de leer y no demasiado complejo (divídalo en varios diagramas de flujo separados si es necesario)
-Sus diagramas de flujo y árboles de decisión siempre deben terminar (sin embargo, puede influir en los pasos que debe seguir para llegar al nodo final)
-Puede mapear su diseño con lápiz y papel y usar un creador de diagramas de flujo de un editor de chatbot más adelante
-Puede usar plantillas listas para usar y ajustarlas según sus necesidades (Tidio viene equipado con 14 plantillas de diagramas de flujo de conversación diferentes)
+Los chatbots son como diagramas de flujo interactivos, por lo que se aplican las mismas reglas de diseño  
+
+Los nodos dentro de sus diagramas de flujo deben seguir una secuencia lógica  
+
+Su diagrama de flujo debe ser fácil de leer y no demasiado complejo (divídalo en varios diagramas de flujo separados si es necesario)  
+
+Sus diagramas de flujo y árboles de decisión siempre deben terminar (sin embargo, puede influir en los pasos que debe seguir para llegar al nodo final)  
+
+Puede mapear su diseño con lápiz y papel y usar un creador de diagramas de flujo de un editor de chatbot más adelante  
+
+Puede usar plantillas listas para usar y ajustarlas según sus necesidades (Tidio viene equipado con 14 plantillas de diagramas de flujo de conversación diferentes)  
+
 
 https://www.tidio.com/blog/flowchart-and-decision-tree-examples/
