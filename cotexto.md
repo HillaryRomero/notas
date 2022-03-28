@@ -16,3 +16,34 @@ Otro estudio agrega que «para que los chatbots se adapten a las necesidades de 
 
 Sin embargo, al consultar sitios web que recogen criterios determinados por los usuarios para considerar que un chatbot es útil, pudimos notar que los usuarios consideran que las versiones más sofisticadas de los chatbots deberían recordar el contexto, detectar dudas en función de las acciones de los usuarios, entre otros.
 Y ya que resulta de interés el asunto sobre el contexto, debido a que es fundamental para los usuarios; en nuestro caso particular, entenderemos por contexto: **una serie de elementos semánticos que hayan sido nombrados por el usuario en la conversación**. 
+
+
+
+
+
+# "Contexto" para el paper: 
+
+Contexto Hillary Romero
+
+En un conversación tradicional con otra persona los mensajes van y vienen. Durante el intercambio comunicativo nuestra mente procesa los mensajes que recibe y emite. Al mismo tiempo, va quedando en ella un registro temporal de estos mensajes. 
+Dicho registro, también llamado "memoria de conversación", es el que nos permitirá, en la medida en que avanza el intercambio comunicativo, utilizar los mensajes como soporte para hilvanar la conversación. 
+
+Los interlocutores, por respeto o por interés, mantienen una memoria de la conversación y una percepción o conciencia del contexto de la misma.
+De lo contrario, uno o ambos interlocutores desarrollarían frustración durante la conversación.  Esto ocasionaría una ruptura o quiebre de la misma y se obtendría, como resultado, un fracaso comunicativo. 
+
+Pongamos un ejemplo: si ayer estuvimos en una cafetería con nuestra mejor amiga y nos pusimos al día, hablamos mucho de todo lo que nos ha pasado en un período de tiempo, y resulta que hoy le escribimos a su teléfono, haciendo referencia a alguno de los temas conversados el día anterior y nuestra amiga no recuerda nada de lo que hablamos, ¿qué sensación experimentaríamos? Probablemente frustración sería la primera de la lista. 
+
+Imaginar que cada vez que vamos a ver a nuestra mejor amiga le debemos relatar todo lo que hemos vivido a lo largo de los años, para nosotros, resultaría agotador.
+
+Al igual que en la vida real, nos sucede lo mismo con los agentes conversacionales. Nos resulta agotador y frustrante que un agente no sea capaz de reconocer y recordar algún elemento mencionado en una misma conversación segundos antes. 
+
+Aquí es donde el reconocimiento del contexto hace su magia. Creemos que una de las claves de una comunicación más flexible y humanizada entre un humano y un agente conversacional puede estar en que estos sean capaces de manejar la información del contexto, entendiendo por contexto: una serie de elementos semánticos que hayan sido nombrados por el usuario en la conversación.
+
+Creemos que agente conversacional capaz de manejar el contexto puede resultar en una mejor experiencia para los usuarios. 
+Obteniendo así, un agente capaz de interactuar de manera más eficiente con,  asemejándose a la interacción entre humanos.
+
+
+
+
+
+
